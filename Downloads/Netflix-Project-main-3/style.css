@@ -1,0 +1,1546 @@
+/* Global Values */
+
+body {
+    margin: 0;
+    min-width: 320px;
+    background-color: black;
+    color: white;
+    direction: ltr;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+
+
+.head-wrapper {
+  height: 733.38px;
+  width: auto;
+  background: transparent;
+}
+
+.head-wrapper .img-container {
+  height: 697.5px;
+  position: relative;
+  background: transparent;
+}
+
+.head-wrapper .img-container .img-header-background {
+  width: 100vw;
+  height: 733.38px;
+  object-fit: cover;
+  position: absolute;
+  background: transparent;
+}
+
+.img-container .container-gradient-movies-img::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.8) 0,
+    transparent 60%,
+    rgba(0, 0, 0, 0.8)
+  );
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 733.38px;
+}
+
+/* Inizio stile navbar */
+.svg-logo img {
+  max-width: 167px;
+  height: 95px;
+  margin-left: 50px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  position: relative;
+  width: auto;
+}
+
+.navbar-button {
+  display: flex;
+  gap: 22px;
+  margin-bottom: 12px;
+  margin-right: 56px;
+}
+
+.lang-selection-container {
+  width: 94px;
+  height: 36px;
+  border-radius: 3px;
+  border: 1px solid #aaa;
+  position: relative;
+}
+
+.lang-selection-container select {
+  width: 94px;
+  height: 36px;
+  text-align: center;
+  appearance: none;
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+}
+
+.lang-selection-container select option {
+  background-color: #8c8c8c;
+  padding: 40px;
+}
+
+.lang-selection-container::before {
+  content: "\f0ac";
+  color: white;
+  font: var(--fa-font-solid);
+  font-size: 13px;
+  position: absolute;
+  top: 11px;
+  left: 7px;
+  pointer-events: none;
+}
+
+.lang-selection-container::after {
+  content: "\f0d7";
+  font: var(--fa-font-solid);
+  color: white;
+  position: absolute;
+  top: 8px;
+  right: 7px;
+  pointer-events: none;
+}
+
+.sign-in-button button {
+  background-color: #e50919;
+  color: white;
+  border: 0;
+  padding: 7px 17px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 3px;
+  width: 84.5px;
+  height: 34px;
+  font-family: helvetica, sans-serif;
+}
+
+.sign-in-button button:hover {
+  cursor: pointer;
+}
+
+.lang-selection-container select:focus,
+.main-email-form input:focus {
+  outline: none;
+}
+
+/* Fine stile navbar*/
+/* Inizio stile titoli e form*/
+
+.main-form {
+  position: relative;
+  background: transparent;
+  max-width: 950px;
+  margin: auto;
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+
+.main-form-text > h1 {
+  font-size: 4rem;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-form-text > h3 {
+  font-size: 26px;
+  margin: 16px 75px;
+  font-weight: normal;
+}
+
+.main-form > .main-form-text {
+  padding: 75px 0px;
+  margin: 0;
+}
+
+.main-email-form {
+  font-size: 0;
+  padding: 13.6px 0px 0px;
+}
+
+.main-email-form-text {
+  margin: 0px 24.27px;
+  padding: 0px 47.5px 5px;
+  font-size: 19.2px;
+}
+
+.main-email-form > input {
+  border: 0.5px solid #8c8c8c;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  font-size: large;
+  vertical-align: text-bottom;
+}
+
+#email {
+  width: 450px;
+  max-width: 85vw;
+  height: 50px;
+  padding: 10px;
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+}
+
+.main-email-form > input::placeholder {
+  font-size: 16px;
+  color: #8c8c8c;
+}
+
+.main-email-form > input:focus::placeholder {
+  font-size: 13px;
+  transform: translateY(-19px);
+  font-family: Helvetica, sans-serif;
+}
+
+.main-email-form > button {
+  width: 158.39px;
+  height: 72px;
+  background-color: #e50919;
+  border: 0.5px solid #8c8c8c;
+  color: white;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  position: relative;
+  vertical-align: text-bottom;
+}
+
+.start-text {
+  height: 100%;
+  position: absolute;
+  top: 18px;
+  left: 30px;
+  font-size: 30px;
+  font-family: Helvetica, sans-serif;
+}
+
+.start-arrow{
+  height: 100%;
+  font-size: 25px;
+  position: absolute;
+  top: 24px;
+  left: 110px;
+  font-family: Helvetica, sans-serif;
+}
+
+.main-email-form > button:hover {
+  background-color: #f40612;
+  cursor: pointer;
+}
+
+/* Da finire, perché appaia con input non validi e diventi "Inserisci un indirizzo email valido" dopo il quinto carattere scritto */
+.main-email-error {
+  visibility: hidden; 
+  color: #ffa00a;
+  font-size: 15px;
+  margin: 0px;
+  text-align: center;
+}
+
+/* Fine stile titoli e form */
+
+@media screen and (min-width: 950px) and (max-width: 1450px) {
+  .head-wrapper,
+  .img-container,
+  .img-container .container-gradient-movies-img::before,
+  .head-wrapper .img-container .img-header-background {
+    max-height: 692px;
+  }
+
+  .svg-logo img {
+    width: 134px;
+    height: 70px;
+  }
+
+  .navbar {
+    padding-top: 20px;
+  }
+
+  .main-form > .main-form-text {
+    padding: 100px 0px;
+    margin: 0px;
+  }
+
+  .main-form-text > h1 {
+    font-size: 3.125rem;
+  }
+
+  .main-email-form-text {
+    font-size: 19.2px;
+  }
+
+  .main-email-form {
+    padding-top: 13.6px;
+  }
+
+  #email {
+    width: 428px;
+    height: 40px;
+    padding: 10px;
+    text-align: left;
+  }
+
+  .main-email-form > button {
+    height: 61px;
+    width: 137.55px;
+  }
+
+  .start-text {
+    font-size: 25px;
+    top: 16px;
+  }
+
+  .start-arrow {
+    font-size: 22px;
+    top: 20px;
+    left: 100px;
+  }
+}
+
+@media screen and (min-width: 740px) and (max-width: 949px) {
+  .head-wrapper,
+  .img-container,
+  .img-container .container-gradient-movies-img::before,
+  .img-container .img-header-background {
+    max-height: 750px;
+  }
+
+  .svg-logo img {
+    width: 108px;
+    height: 60px;
+  }
+
+  .main-form {
+    margin: 0px;
+  }
+  .main-form-text > h1 {
+    font-size: 3.125rem;
+  }
+
+  .main-email-form {
+    padding-top: 0px;
+  }
+
+  .main-email-form-text {
+    font-size: 23px;
+    padding: 0px 80px 11px;
+  }
+
+  .main-email-form input{
+    margin: auto;
+  }
+
+  #email {
+    width: 480px;
+    height: 40px;
+  }
+
+  .main-email-form button {
+    width: 85px;
+    height: 40px;
+    font-size: 16px;
+    margin: 12px 200px 0px 200px;
+    border-radius: 2px;
+  }
+
+  .start-text {
+    font-size: 16px;
+    top: 11px;
+    left: 18px;
+  }
+
+  .start-arrow {
+    font-size: 10px;
+    top: 16px;
+    left: 61px;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 740px) {
+  .head-wrapper,
+  .img-container,
+  .img-container .container-gradient-movies-img::before,
+  .img-container .img-header-background {
+    max-height: 730px;
+  }
+
+  .navbar {
+    padding-top: 35px; 
+  }
+
+  .svg-logo img {
+    width: 108px;
+    height: 60px;
+  }
+
+  .main-form > .main-form-text {
+    max-width: 95vw;
+    padding-top: 15px;
+  }
+
+  .main-form-text > h1 {
+    font-size: 3.125rem;
+  }
+
+  .main-form-text > h3 {
+    margin: 16px 10px;
+  }
+
+  .main-email-form-text {
+    font-size: 23px;
+  }
+
+  .main-email-form {
+    padding-top: 0px;
+  }
+
+  #email{
+    width: 480px;
+    height: 28px;
+  }
+
+  .main-email-form-text {
+    font-size: 18px;
+    padding: 0px 61px 20px;
+  }
+
+  .main-email-form button {
+    width: 85px;
+    height: 40px;
+    font-size: 16px;
+    margin: 12px 40px 0px 40px;
+    border-radius: 2px;
+  }
+
+  .start-text {
+    font-size: 16px;
+    top: 11px;
+    left: 18px;
+  }
+
+  .start-arrow {
+    font-size: 10px;
+    top: 13.5px;
+    left: 61px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 550px) {
+  .head-wrapper,
+  .img-container,
+  .img-container .container-gradient-movies-img::before,
+  .img-container .img-header-background {
+    max-height: 550px;
+  }
+
+  .navbar-button {
+    gap: 15px;
+    max-width: 160px;
+    margin-top: 10px;
+  }
+
+  .lang-selection-container {
+    width: 94px;
+    height: 28px;
+  }
+
+  .lang-selection-container select {
+    width: 94px;
+    height: 28px;
+  }
+
+  .lang-selection-container::before {
+    top: 7px;
+  }
+
+  .lang-selection-container::after {
+    top: 5px;
+    right: 6px;
+  }
+
+  .sign-in-button {
+    width: 61.5px;
+    height: 27px;
+  }
+
+  .sign-in-button button {
+    font-size: 14px;
+    font-weight: 200;
+    width: 61.5px;
+    height: 27px;
+    padding: 5px;
+  }
+
+  .svg-logo img {
+    width: 88px;
+    height: 50px;
+    margin-left: 30px;
+  }
+
+  .main-form > .main-form-text {
+    padding-top: 40px;
+    max-width: 100vw;
+  }
+
+  .main-form-text > h1 {
+    font-size: 1.75rem;
+  }
+
+  .main-form-text > h3 {
+    font-size: 18px;
+    margin: 16px 0px;
+  }
+
+  .main-email-form-text {
+    font-size: 18px;
+    max-width: 100%;
+    margin: 0px;
+    padding: 5px 16px 10px 16px;
+  }
+
+  .main-email-form {
+    max-width: 480px;
+    max-height: 70px;
+    padding: 0px;
+  }
+
+ #email{
+    width: 452px;
+    height: 27px;
+    text-align: left;
+  }
+
+  .main-email-form > input::placeholder {
+    font-size: 14px;
+  }
+
+  .main-email-form-text {
+    font-size: 18px;
+    padding: 0px 61px 20px;
+  }
+  
+  .main-email-form > button {
+    width: 85px;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 15px;
+    border-radius: 2px;
+  }
+
+  .start-text {
+    font-size: 16px;
+    top: 11px;
+    left: 18px;
+  }
+
+  .start-arrow {
+    font-size: 10px;
+    top: 13.5px;
+    left: 61px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 480px) {
+  .head-wrapper,
+  .img-container,
+  .img-container .container-gradient-movies-img::before,
+  .img-container .img-header-background {
+    max-height: 550px;
+  }
+
+  .navbar-button {
+    gap: 5px;
+    margin-top: 10px;
+    margin-right: 35px;
+  }
+
+  .lang-selection-container {
+    width: 94px;
+    height: 28px;
+  }
+
+  .lang-selection-container select {
+    width: 94px;
+    height: 28px;
+  }
+
+  .lang-selection-container::before {
+    top: 7px;
+  }
+
+  .lang-selection-container::after {
+    top: 5px;
+    right: 6px;
+  }
+
+  .sign-in-button {
+    width: 61.5px;
+    height: 27px;
+    margin-left: 10px;
+  }
+
+  .sign-in-button button {
+    font-size: 14px;
+    font-weight: 200;
+    width: 61.5px;
+    height: 27px;
+    padding: 5px;
+  }
+
+  .svg-logo {
+    margin-top: 5px;
+  }
+
+  .svg-logo img {
+    width: 90px;
+    height: 50px;
+    margin-left: 20px;
+  }
+
+  .main-form > .main-form-text {
+    padding: 25px 0px;
+  }
+
+  .main-form-text > h1 {
+    font-size: 1.75rem;
+  }
+
+  .main-form-text > h3 {
+    font-size: 18px;
+    margin: 16px 0px;
+  }
+
+  .main-email-form-text {
+    font-size: 18px;
+    padding: 0px;
+  }
+
+  .main-email-form {
+    max-width: 480px;
+    max-height: 70px;
+    padding: 0px;
+    margin: 10px;
+  }
+
+  #email {
+    max-width: 322px;
+    height: 28px;
+  }
+
+  .main-email-form > input::placeholder {
+    font-size: 16px;
+  }
+
+  .main-email-form > button {
+    width: 85px;
+    height: 40px;
+    margin: 12px 30px;
+  }
+
+  .start-text {
+    font-size: 16px;
+    top: 10px;
+    left: 12px;
+  }
+
+  .start-arrow {
+    font-size: 13px;
+    top: 13px;
+    left: 60px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .head-wrapper,
+  .img-container,
+  .img-container .container-gradient-movies-img::before,
+  .img-container .img-header-background {
+    max-height: 550px;
+  }
+
+  .navbar-button {
+    gap: 5px;
+    margin-top: 10px;
+    margin-right: 35px;
+  }
+
+  .lang-selection-container {
+    width: 94px;
+    height: 28px;
+  }
+
+  .lang-selection-container select {
+    width: 94px;
+    height: 28px;
+  }
+
+  .lang-selection-container::before {
+    top: 7px;
+  }
+
+  .lang-selection-container::after {
+    top: 5px;
+    right: 6px;
+  }
+
+  .sign-in-button {
+    width: 61.5px;
+    height: 27px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+
+  .sign-in-button button {
+    font-size: 14px;
+    font-weight: 200;
+    width: 61.5px;
+    height: 27px;
+    padding: 5px;
+    margin-right: 15px;
+  }
+
+  .svg-logo {
+    margin-top: 5px;
+  }
+
+  .svg-logo img {
+    width: 90px;
+    height: 50px;
+    margin-left: 15px;
+  }
+
+  .main-form > .main-form-text {
+    padding: 0px;
+  }
+
+  .main-form-text > h1 {
+    font-size: 1.75rem;
+  }
+
+  .main-form-text > h3 {
+    font-size: 18px;
+    margin: 16px 0px;
+  }
+
+  .main-email-form-text {
+    font-size: 18px;
+    padding: 0px;
+  }
+
+  .main-email-form {
+    max-width: 400px;
+    max-height: 70px;
+    padding: 0px;
+    margin: 10px;
+  }
+
+  #email {
+    max-width: 280px;
+    height: 30px;
+    margin: auto;
+  }
+
+  .main-email-form > input::placeholder {
+    font-size: 14px;
+  }
+
+  .main-email-form > button {
+    width: 85px;
+    height: 40px;
+    margin: 15px 25px;
+    text-align: left;
+  }
+
+  .start-text {
+    font-size: 16px;
+    top: 10px;
+    left: 15px;
+  }
+
+  .start-arrow {
+    font-size: 13px;
+    top: 13px;
+    left: 60px;
+  }
+}
+
+/* 
+
+Inizio Animated cards CSS (Marco I.) 
+
+*/
+
+.watchOnTv{
+    border-top: 8px solid #222;
+}
+
+.our-story-card{
+    padding: 70px 45px;
+    position: relative;
+    border-bottom: 8px solid #222;
+    background-color: black;
+}
+
+.animation-card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.our-story-card-text{
+    width: 52%;
+    padding-right: 3rem;
+}
+
+.our-story-card-title h1{
+    font-size: 3.125rem;
+    color: white;
+}
+
+.our-story-card-subtitle p{
+    font-size: 1.625rem;
+    font-weight: 400;
+    color: white;
+}
+
+.our-story-card-img-container{
+    width: 48%;
+    height: 100%;
+    position: relative;
+}
+
+.our-story-card-animation-container{
+    overflow: hidden;
+    position: relative;
+}
+
+.our-story-card-animation-container img{
+    position: relative;
+    z-index: 2;
+    max-width: 100%;
+}
+
+.our-story-card-animation{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-height: 54%;
+    max-width: 73%;
+    top: 20.8%;
+    left: 13.2%;
+}
+
+.our-story-card-animation video{
+    width: 100%;
+    height: 100%;
+}
+
+.our-story-card-animation2{
+    background: #000;
+    border: 2px solid hsla(0,0%,100%,.25);
+    border-radius: 0.75em;
+    box-shadow: 0 0 2em 0 #000;
+    position: absolute;
+    padding: 0.25em 0.65em;
+    height: auto;
+    top: 63%;
+    right: 17%;
+    width: 62%;
+    
+}
+
+.animation-card-wrapper{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.animation-card-avatar img{
+    height: 5em;
+    max-width: none;
+}
+
+.card-animation{
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) 50% no-repeat;
+    background-size: 100%;
+    content: "";
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 3em;
+    outline: 2px solid #000;
+    outline-offset: -2px;
+    width: 3em;
+}
+
+.animation-card-text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px 10px 10px;
+}
+
+.animation-card-text h4{
+    color: white;
+    font-size: 1em;
+    margin: 0;
+}
+
+.animation-card-text span{
+    color: #0071eb;
+    font-size: 0.9em;
+}
+
+
+@media (max-width: 949px){
+    .animation-card-container{
+        flex-direction: column;
+    }
+    .our-story-card-img-container2{
+        max-width: 600px;
+        width: 100%;
+    
+    }
+    
+    .our-story-card-img img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .animation-card-container2{
+        flex-direction: column-reverse;
+    }
+
+    .our-story-card-img-container{
+        width: 100%;
+    }
+
+    .our-story-card-animation-container{
+        display: flex;
+        justify-content: center;
+    }
+    .our-story-card-text{
+        width: 100%;
+        text-align: center;
+        padding-right: 0px;
+        z-index: 3;
+        margin-bottom: -30px;
+    }
+    .our-story-card-title h1{
+        font-size: 2.5rem;
+    }
+
+    .our-story-card-subtitle p{
+        font-size: 1.25rem;
+    }
+    .our-story-card-animation2{
+        top: 72%;
+    }
+}
+
+@media (max-width: 600px){
+    .animation-card-avatar img{
+        height: 4em;
+    }
+}
+
+@media (max-width: 520px){
+    .animation-card-avatar img{
+        height: 3em;
+    }
+}
+
+@media (max-width: 1024px){
+    .animation-card-avatar img{
+        height: 4em;
+    }
+}
+
+/*
+
+Fine Animated cards css (Marco I.)
+
+/*
+
+
+
+/* 
+
+Inizio Animated cards CSS (Simone M.) 
+
+*/
+
+
+/* Btn Github S.M. */
+
+/*
+
+.git-btn {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+
+
+.git-btn:hover {
+    color: white;
+    background: red;
+    border-radius: .2em;
+    transition-delay: 1s;
+}
+
+
+.git-btn span {
+    position: absolute;
+    display: block;
+}
+
+
+.git-btn span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, red);
+}
+
+
+
+.git-btn:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+
+.git-btn span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, red);
+}
+
+.git-btn:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+
+
+.git-btn span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, red);
+}
+
+.git-btn:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+
+
+.git-btn span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, white);
+}
+
+.git-btn:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+*/
+
+
+/* Fine Btn Github S.M. */
+
+
+h1 {
+    font-size: 27px;
+    margin: 0 0 .4em
+}
+
+h2 {
+    margin: .75em 0 .25em;
+    font-size: 20px;
+}
+
+
+@media screen and (min-width:740px) {
+    h1 {
+        font-size: 38px
+    }
+
+    h2 {
+        font-size: 27px
+    }
+}
+
+img {
+    border: 0;
+    height: auto;
+    max-width: 100%
+}
+
+.card-title {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem
+}
+
+
+
+@media only screen and (min-width:550px) and (max-width:949px) {
+    .card-title {
+        font-size: 2.5rem;
+    }
+    .our-story-card-title h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px) {
+    .card-title {
+        font-size: 1.625rem
+    }
+    .our-story-card-title h1{
+        font-size: 1.625rem;
+    }
+    .our-story-card{
+        padding: 50px 5%;
+    }
+}
+
+.card-title {
+    line-height: normal
+}
+
+.card-subtitle,
+.card-text {
+    font-size: 1.625rem;
+    font-weight: 400
+}
+
+@media only screen and (min-width:550px) and (max-width:949px) {
+
+    .card-subtitle,
+    .card-text {
+        font-size: 1.25rem
+    }
+    .our-story-card-subtitle p{
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px) {
+    .card-subtitle,
+    .card-text {
+        font-size: 1.125rem
+    }
+    .our-story-card-subtitle p{
+        font-size: 1.125rem;
+    }
+}
+
+.card {
+    background: transparent;
+    border-bottom: 8px solid #222;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 50px 5%;
+    position: relative
+}
+
+@media only screen and (min-width:1450px),
+only screen and (min-width:550px) and (max-width:949px),
+only screen and (min-width:950px) and (max-width:1449px) {
+    .card {
+        padding: 70px 45px
+    }
+}
+
+.animated-card .animated-card-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1100px
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) {
+    .animated-card .animated-card-container {
+        flex-direction: column
+    }
+}
+
+.animated-card .card-text {
+    flex: 0 1 auto;
+    height: 100%;
+    padding: 0 3rem 0 0;
+    width: 52%;
+    z-index: 3
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) {
+    .animated-card .card-text {
+        padding: 0;
+        text-align: center;
+        width: 100%
+    }
+}
+
+.animated-card .card-img-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    height: 100%;
+    width: 48%
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) {
+    .animated-card .card-img-container {
+        margin-top: 1em;
+        max-width: 600px;
+        width: 100%
+    }
+}
+
+.animated-card .card-animation-container {
+    overflow: hidden;
+    position: relative
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) {
+    .animated-card .card-animation-container {
+        margin: 0 auto
+    }
+}
+
+.animated-card.guarda-ovunque .card-img {
+    position: relative;
+    z-index: 2
+}
+
+.animated-card.guarda-ovunque .card-video {
+    height: 100%;
+    width: 100%
+}
+
+.animated-card.guarda-ovunque .card-animation-container {
+    margin: -5% -10% 0 0
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) {
+    .animated-card.guarda-ovunque .card-animation-container {
+        margin: -5% 0 0
+    }
+}
+
+.animated-card.guarda-ovunque.reverse .card-animation-container {
+    margin: -5% 0 0 -10%
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) {
+    .animated-card.guarda-ovunque.reverse .card-animation-container {
+        margin: -5% 0 0
+    }
+}
+
+.animated-card.guarda-ovunque .card-text {
+    margin: -2% 0
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) {
+    .animated-card.guarda-ovunque .card-text {
+        margin: 0
+    }
+}
+
+.animated-card.guarda-ovunque .card-animation {
+    height: 100%;
+    left: 50%;
+    max-height: 47%;
+    max-width: 63%;
+    position: absolute;
+    top: 34%;
+    transform: translate(-50%, -50%);
+    width: 100%
+}
+
+.animated-card.reverse .animated-card-container {
+    flex-flow: row-reverse
+}
+
+.animated-card.reverse .animated-card-container .card-text {
+    padding: 0 0 0 3rem
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) {
+    .animated-card.reverse .animated-card-container .card-text {
+        padding: 0
+    }
+
+    .animated-card.reverse .animated-card-container {
+        flex-flow: column
+    }
+}
+
+/* 
+
+Fine Animated cards CSS (Simone M.) 
+
+*/
+
+.footer .lang-selection-container {
+  width: 132px;
+  height: 53px;
+  border-radius: 3px;
+  border: 0.5px solid #737373;
+  position: relative;
+  margin-left: 7.5%;
+  margin-top: 30px;
+}
+
+.footer .lang-selection-container select {
+  width: 137px;
+  height: 53px;
+  text-align: center;
+  appearance: none;
+  background-color: transparent;
+  color: #737373;
+  font-size: 15px;
+  border: 0px;
+  padding: 0px 40px 0px 40px;
+  
+}
+
+.footer .lang-selection-container select option {
+  background-color: #8c8c8c;
+  padding: 40px;
+}
+.footer .lang-selection-container::before {
+  content: '\f0ac';
+  font: var(--fa-font-solid);
+  color: #737373;
+  position: absolute;
+  top: 18px;
+  left: 13px;
+  pointer-events: none;
+}
+
+.footer .lang-selection-container::after {
+  content: '\f0d7';
+  color: #737373;
+  font: var(--fa-font-solid);
+  position: absolute;
+  top: 18px;
+  right: 6px;
+  pointer-events: none;
+}
+a.footr-link, a.footer-tel{
+    text-decoration: none;
+}
+
+a.footer-link:visited, a.footer-tel:visited{
+    text-decoration: none;
+    color: #737373;
+}
+
+a.footer-link:hover, a.footer-tel:hover{
+    text-decoration: underline;
+    color: #737373;
+}
+.footer-link-item{
+    width: 25%;
+    height: 20px;
+    margin-top: 6px;
+    padding: 0 12px 0 0;
+    vertical-align: top;
+    
+    
+}
+
+ul{
+    all:unset;
+    list-style-type: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px;
+    align-content: flex-start;    
+    margin-left: 7.5%;   
+}
+
+
+.footer-top{
+    color: #737373;
+    font-size: 17px;
+    margin-left:7.5%;
+    margin-top: 35px;
+}
+.footer-link{
+    font-size: 13px;
+    color: #737373;
+    cursor: pointer;
+}
+
+.footer-netflixit{
+    margin-left:7.5%;
+    margin-top: 30px;
+    font-size: 13px;
+    color: #737373;
+    cursor: pointer;
+}
+
+
+.site-footer{
+    align-content: flex-start;
+    width:100%;
+    margin: auto;
+    
+}
+
+
+@media only screen and (max-width: 740px) {
+    .footer-link-item {
+        width:180px;
+    }
+    .footer{
+        width: 100vw;
+    }
+    .site-footer{
+        width: 100%;
+        max-width: 550px;
+        margin: auto;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .footer-link-item {
+        width:40%;
+    }
+    .footer{
+        width: 100vw;
+    }
+    .site-footer{
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 740px) {
+    .footer-link-item {
+        width: 180px;
+    }
+    .footer{
+        width:100vw;
+    }
+    .site-footer{
+        margin: auto;
+        max-width: 700px;
+        width:100%
+    }
+
+}
+
+@media only screen and (min-width: 900px) {
+    .footer-link-item {
+        width: 180px;
+    }
+    .footer{
+        width:100vw;
+    }
+    .site-footer{
+        margin: auto;
+        max-width: 860px;
+        width:100%
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .footer-link-item {
+        width: 200px;
+    }
+    .footer{
+        width:100vw;
+    }
+    .site-footer{
+        max-width: 1100px;
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
