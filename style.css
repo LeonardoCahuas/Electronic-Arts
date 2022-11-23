@@ -1,0 +1,80 @@
+@import "design.css";
+
+:root{
+    --black: #161616;
+    --red-hover: #ff4d4c;
+    --footer-red: #ff4646;
+    --light-grey: #f3f3f3;
+    --white: #FFFFFF;
+    --light-blue: #6fb1d5;
+}
+
+
+.black-font{
+    color: var(--black);
+}
+
+.black-background{
+    background-color: var(--black);
+}
+
+.hover-red{
+    color: var(--red-hover);
+}
+
+.hover-red-background{
+    background-color: var(--red-hover);
+}
+
+
+.footer-red-font{
+    color: var(--footer-red);
+}
+
+.footer-red-background{
+    background-color: var(--footer-red);
+}
+
+.white-background{
+    background-color: var(--white);
+}
+
+.white-font{
+    color: var(--white);
+}
+
+.light-grey-background{
+    background-color: var(--light-grey);
+}
+
+.light-grey-font{
+    color: var(--light-grey);
+}
+
+.black-background{
+    background-color: var(--black);
+}
+
+.light-blue-font{
+    color: var(--light-blue)
+}
+
+.light-blue-background{
+    background-color: var(--light-blue);
+}
+
+.red-hover:hover {
+   color: var(--red-hover);
+}
+
+.button-filled{
+    border: none;
+    border-radius: 2px;
+}
+
+.button-empty{
+    background:rgba(0,0,0,0);;
+    border: 2px solid;
+    border-radius: 2px;
+}
+
