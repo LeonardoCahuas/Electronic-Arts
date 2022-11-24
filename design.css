@@ -32,7 +32,7 @@ body{
 
 .color-box{
     width: 100px;
-    height: 100px;
+    height: 140px;
     border: 2px solid black;
     border-radius: 5px;
     padding: 30px;
@@ -104,3 +104,52 @@ button{
 button:first-child{
     background-color: white;
 }
+
+.img{
+    width: 150px;
+    height: auto;
+}
+
+.logos-item h4{
+    font-size: 20px;
+}
+
+.logos{
+    background-color: rgb(255, 255, 192);
+    border: 2px solid yellow;
+    border-radius: 5px;
+}
+
+.logos-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap:130px
+}
+
+.logos h3{
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: 60px;
+    color:rgb(219, 219, 0);
+}
+
+.details-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    padding: 30px;
+}
+.details{
+    background-color: rgb(255, 187, 221);
+    border: 2px solid hotpink;
+    padding: 30px;
+}
+
+.details h3{
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: 60px;
+    color:hotpink;
+}
+

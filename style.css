@@ -1,4 +1,11 @@
 @import "design.css";
+@import url(//db.onlinewebfonts.com/c/48656eabd3fef6464367d956315c749a?family=Electronic+Arts+Text);
+@font-face {font-family: "Electronic Arts Text"; 
+    src: url("//db.onlinewebfonts.com/t/48656eabd3fef6464367d956315c749a.eot"); 
+    src: url("//db.onlinewebfonts.com/t/48656eabd3fef6464367d956315c749a.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/48656eabd3fef6464367d956315c749a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/48656eabd3fef6464367d956315c749a.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/48656eabd3fef6464367d956315c749a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/48656eabd3fef6464367d956315c749a.svg#Electronic Arts Text") format("svg"); 
+}
 
 :root{
     --black: #161616;
@@ -9,6 +16,9 @@
     --light-blue: #6fb1d5;
 }
 
+body{
+    font-family: "Electronic Arts Text",  "Verdana", "Helvetica", "Arial", sans-serif; 
+}
 
 .black-font{
     color: var(--black);
@@ -25,7 +35,6 @@
 .hover-red-background{
     background-color: var(--red-hover);
 }
-
 
 .footer-red-font{
     color: var(--footer-red);
@@ -69,12 +78,12 @@
 
 .button-filled{
     border: none;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
 .button-empty{
-    background:rgba(0,0,0,0);;
+    background:rgba(0,0,0,0);
     border: 2px solid;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
