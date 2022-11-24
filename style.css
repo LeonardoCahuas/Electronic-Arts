@@ -73,17 +73,31 @@ body{
 }
 
 .red-hover:hover {
-   color: var(--red-hover);
-}
+    color: var(--red-hover);
+ }
+ 
 
 .button-filled{
     border: none;
     border-radius: 3px;
+    padding: 12px, 24px, 12px, 24px;
 }
 
 .button-empty{
     background:rgba(0,0,0,0);
     border: 2px solid;
     border-radius: 3px;
+    padding: 12px, 24px, 12px, 24px;
+}
+@media only screen and (min-width:1024px) and (max-width:949px) {
+
+}
+
+@media only screen and (min-width:768) and (max-width:1024px) {
+     
+}
+
+@media only screen and  (max-width:768px) {
+     
 }
 
