@@ -13,7 +13,7 @@ const cardArray7 = document.getElementById("card_clone_array7");//cards for Insi
 const cardContent = [
     {
       id: 0,
-      href: "#",
+      linkToPage: "#",
       cardImg: "/card_components/itt-hero-large-keyart-16x9-xl.jpg.adapt.crop16x9.431p.jpg",
       redTitle: "It Takes Two",
       date: "4 Nov 2022",
@@ -22,7 +22,7 @@ const cardContent = [
     },
     {
         id: 1,
-        href: "#",
+        linkToPage: "#",
         cardImg: "/card_components/marvel-x-ea-featured-image-16x9.jpg.adapt.crop16x9.431p.jpg",
         redTitle: "Electronic Arts Inc.",
         date: "31 Ott 2022",
@@ -31,7 +31,7 @@ const cardContent = [
       },
       {
         id: 2,
-        href: "#",
+        linkToPage: "#",
         cardImg: "/card_components/ts4-play-sims-for-free-new-plumbob.png.adapt.crop16x9.431p.png",
         redTitle: "Electronic Arts Inc.",
         date: "18 Ott 2022",
@@ -40,7 +40,7 @@ const cardContent = [
       },
       {
         id: 3,
-        href: "#",
+        linkToPage: "#",
         cardImg: "/card_components/eacom-brand-featured-image-16x9.png.adapt.crop16x9.431p.png",
         redTitle: "Electronic Arts Inc.",
         date: "6 Ott 2022",
@@ -49,7 +49,7 @@ const cardContent = [
       },
       {
         id: 4,
-        href: "#",
+        linkToPage: "#",
         cardImg: "/card_components/ts4-play-sims-for-free-new-plumbob.png.adapt.crop16x9.431p.png",
         redTitle: "Electronic Arts Inc.",
         date: "18 Ott 2022",
@@ -58,7 +58,7 @@ const cardContent = [
       },
       {
         id: 5,
-        href: "#",
+        linkToPage: "#",
         cardImg: "/card_components/ea-app-featured-image-16x9.jpg.adapt.crop16x9.431p.jpg",
         redTitle: "Electronic Arts Inc.",
         date: "18 Ott 2022",
@@ -69,24 +69,23 @@ const cardContent = [
 
     function newCards(groupCards, item, content) {
         for (let i = 0; i < content.length; i++) {
-          groupCards.innerHTML += item(content[i].href, content[i].cardImg, content[i].redTitle, content[i].date, content[i].title, content[i].text);
+          groupCards.innerHTML += item(content[i].linkToPage, content[i].cardImg, content[i].redTitle, content[i].date, content[i].title, content[i].text);
         }
       }
       
-      function card(href, cardImg, redTitle, date, title, text) {
+      function card(linkToPage, cardImg, redTitle, date, title, text) {
         const card = `
-          <a href=${href} class="card">
-                  <img src=${cardImg} class="card-img-top" alt="${title}">
-                  <div class="card-body p-4">
+        <a href=${linkToPage} class="card">
+            <img src=${cardImg} class="card-img-top" alt="${title}">
+                <div class="card-body p-4">
                     <div class="d-flex flex-column align-items-center flex-md-row align-items-md-start mb-2">
                       <span class="me-md-3"; style="color:#ff4747;font-weight:bold; font-size:.8rem">${redTitle}</span>
                       <span style="color:#161616;font-size:.8rem">${date}</span>
                     </div>
-                    <h3 class="h5 title text-center text-md-start mb-2">${title}</h3>
+                    <h3 class="h5 title text-center text-md-start mb-2 style="font-weight:bold;" ">${title}</h3>
                     <p class="card-text text-dark">${text}</p>
-                  </div>
-          </a>
-        `;
+                </div>
+        </a>`;
         return card;
       }
       
