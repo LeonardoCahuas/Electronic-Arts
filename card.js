@@ -67,15 +67,16 @@ const cardContent = [
       },
     ]
 
-    function newCards(groupCards, item, content) {
+function newCards(groupCards, item, content) {
         for (let i = 0; i < content.length; i++) {
           groupCards.innerHTML += item(content[i].linkToPage, content[i].cardImg, content[i].redTitle, content[i].date, content[i].title, content[i].text);
         }
       }
-      
-      function card(linkToPage, cardImg, redTitle, date, title, text) {
-        const card = `
-        <a href=${linkToPage} class="card">
+
+//the function create a card with the parameters of the object inside the array
+function card(linkToPage, cardImg, redTitle, date, title, text) {
+        const card = 
+        `<a href=${linkToPage} class="card">
             <img src=${cardImg} class="card-img-top" alt="${title}">
                 <div class="card-body p-4">
                     <div class="d-flex flex-column align-items-center flex-md-row align-items-md-start mb-2">
