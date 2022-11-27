@@ -1,21 +1,21 @@
-.card_multiply .card {
-    min-width: 19.3rem;
+.tab-content .tab-pane .card-clone .card {
+    width: 25%;
+    min-width: 20rem;
     height: auto;
-    width: 20%;
+    border-radius: 0%;
     text-decoration: none;
-    border: 0;
-    border-radius: 0;
+    color: black;
+    border-radius: 0px;
+    border: 0px;
     cursor: pointer;
-    transition: transform .5s ease, box-shadow .5ease;
-    box-shadow: .06rem .06rem .6rem rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
-.card_multiply .card:hover {
-    transform: translateY(-.75rem);
-    box-shadow: 0rem 1.25rem 1.8rem rgba(0, 0, 0, .7);
+
+.tab-content .tab-pane .card-clone .card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.7);
 }
-.card_multiply .card img {
+.tab-content .tab-pane .card-clone .card img {
     border-radius: 0;
-}
-.card_multiply .card .card-body span{
-    font-size: .8rem;
 }
