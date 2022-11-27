@@ -1,6 +1,13 @@
 //create variables for all cards I need
-const cardArray = document.getElementById("card_clone_array");
-const cardArray1 = document.getElementById("card_clone_array1");
+const cardArray = document.getElementById("card_clone_array");//cards for News EA
+const cardArray1 = document.getElementById("card_clone_array1");//cards for EA Play
+const cardArray2 = document.getElementById("card_clone_array2");//cards for FIFA
+const cardArray3 = document.getElementById("card_clone_array3");//cards for F1
+const cardArray4 = document.getElementById("card_clone_array4");//cards for Apex Legends
+const cardArray5 = document.getElementById("card_clone_array5");//cards for The Sims
+const cardArray6 = document.getElementById("card_clone_array6");//cards for BattleField
+const cardArray7 = document.getElementById("card_clone_array7");//cards for Inside EA
+
 
 //create an array of a full card, who switch with the id
 const cardContent = [
@@ -60,9 +67,9 @@ const cardContent = [
       },
     ]
 
-    function newCards(row, item, content) {
+    function newCards(groupCards, item, content) {
         for (let i = 0; i < content.length; i++) {
-          row.innerHTML += item(content[i].href, content[i].cardImg, content[i].redTitle, content[i].date, content[i].title, content[i].text);
+          groupCards.innerHTML += item(content[i].href, content[i].cardImg, content[i].redTitle, content[i].date, content[i].title, content[i].text);
         }
       }
       
