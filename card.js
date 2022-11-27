@@ -9,7 +9,7 @@ const cardArray6 = document.getElementById("card_clone_array6");//cards for Batt
 const cardArray7 = document.getElementById("card_clone_array7");//cards for Inside EA
 
 
-//create an array of a full card, who switch with the id
+//create an array of a full cards, who switch with the id
 const cardContent = [
     {
       id: 0,
