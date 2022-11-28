@@ -38,7 +38,6 @@
         color: #161616;
         border-radius: 0rem;
         border: 0rem;
-        cursor: pointer;
         box-shadow: .06rem .06rem .6rem rgba(0, 0, 0, 0.3);
         transition: transform 0.9s ease, box-shadow 0.9s ease;
     }
