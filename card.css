@@ -24,3 +24,21 @@
 .tab-content .tab-pane .card-clone .card img {
     border-radius: 0;
 }
+
+@media screen and (max-width: 767px) {
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .tab-content .tab-pane .card-clone .card {
+        width: 90%;
+        
+    }
+
+    .tab-content .tab-pane .card-clone .card img {
+        display: none;
+    }
+    .tab-content .tab-pane .card-clone .card p {
+        display: none;
+    }
+}
