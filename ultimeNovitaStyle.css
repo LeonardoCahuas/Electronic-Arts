@@ -31,11 +31,16 @@ body {
   padding: 0;
 }
 
-#nav-tab > button > p{
-  border-right: 1px solid rgba(181, 175, 175, 0.6);
+#nav-tab > button > p {
+  border-right: 2px solid rgba(181, 175, 175, 0.4);
   font-family: "Electronic Arts Text", Verdana, Helvetica, Arial, sans-serif;
   font-size: 18px;
-  padding: 5px 20px;
+  padding: 0 20px 15px 20px;
+  margin: 0;
+}
+
+#nav-tab > button:last-of-type > p{
+  border-right: none;
 }
 
 #nav-novita-container{
@@ -52,6 +57,7 @@ nav{
   min-width: 35%;
 }
 
+/** To be replaced with ultime-novita-cards section */
 #nav-tabContent{
   display: flex;
   justify-content: center;
@@ -63,7 +69,6 @@ nav{
   flex-direction: row;
   justify-content: center;
   min-width: 100vw;
-  border: 1px solid black;
 }
 
 .cards-container > .cards-col{
