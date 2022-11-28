@@ -11,33 +11,66 @@ body {
   min-width: 100%;
 }
 
-.section-title > h3 {
+.title-section > h3 {
   font-size: 44px;
-  font-weight: 950;
+  font-weight: 900;
   font-family: "Electronic Arts Text", Verdana, Helvetica, Arial, sans-serif;
   text-align: center;
-  color: var( --black);
+  color: var(--black);
 }
 
-.ultime-novita > .options-area {
-  display: flex;
-  justify-content: center;
-  margin-top: 45px;
-  min-width: 100%;
+#nav-tab {
+  border: none;
+  margin-top: 35px;
+}
+
+#nav-tab > button {
+  border: none;
+  color: var(--black);
+  margin: 0;
+  padding: 0;
+}
+
+#nav-tab > button > p{
+  border-right: 1px solid rgba(181, 175, 175, 0.6);
+  font-family: "Electronic Arts Text", Verdana, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  padding: 5px 20px;
+}
+
+#nav-novita-container{
   border-bottom: 1px solid rgba(181, 175, 175, 0.6);
 }
 
-.options-area > .option-tabs-container {
+nav{
   display: flex;
-  padding: 2px 50px;
-  min-width: 50%;
+  justify-content: center;
+  min-width: 100%;
 }
 
-.tab-text > p {
-  text-align: center;
-  font-size: 18px;
-  padding: 0 18px 0 18px;
-  border-right: 2px solid rgba(181, 175, 175, 0.3);
-  color: var(--black);
-  font-family: "Electronic Arts Text", Verdana, Helvetica, Arial, sans-serif;
+#nav-tab{
+  min-width: 35%;
 }
+
+#nav-tabContent{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.cards-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-width: 100vw;
+  border: 1px solid black;
+}
+
+.cards-container > .cards-col{
+  padding: 50px;
+}
+
+.cards-container > .cards-col > .card-space{
+  margin-bottom: 50px;
+}
+
