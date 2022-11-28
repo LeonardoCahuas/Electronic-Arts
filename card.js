@@ -1,4 +1,4 @@
-//create variables for all cards I need
+//create variables for all group of cards I need
 const cardArray = document.getElementById("card_clone_array");//cards for News EA
 const cardArray1 = document.getElementById("card_clone_array1");//cards for EA Play
 const cardArray2 = document.getElementById("card_clone_array2");//cards for FIFA
@@ -67,6 +67,7 @@ const cardContent = [
       },
     ]
 
+    //loop function
 function newCards(groupCards, item, content) {
         for (let i = 0; i < content.length; i++) {
           groupCards.innerHTML += item(content[i].linkToPage, content[i].cardImg, content[i].redTitle, content[i].date, content[i].title, content[i].text);
