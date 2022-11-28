@@ -45,7 +45,7 @@ const cardContent = [
         redTitle: "Electronic Arts Inc.",
         date: "6 Ott 2022",
         title: "Un aggiornamento per i nostri giocatori Mac sull'EA app per Windows",
-        text:"Forse avrai letto qualche notizia sulla nuova EA app per Windows, che presto diventerà il principale punto di riferimento per i giochi PC di EA, andando a sostituire Origin. Sappiamo che ti interessa sapere cosa questo comporti per te e per i tuoi amici che giocano su Origin per Mac.",
+        text:"Forse avrai letto qualche notizia sulla nuova EA app per Windows, che presto diventerà il principale punto di riferimento per i giochi PC di EA, andando a sostituire Origin.",
       },
       {
         id: 4,
@@ -63,7 +63,7 @@ const cardContent = [
         redTitle: "Electronic Arts Inc.",
         date: "18 Ott 2022",
         title: "Giocate a The Sims 4 gratis a partire dal 18 ottobre",
-        text:"Siamo lieti di annunciare che l'EA app ha ufficialmente abbandonato la fase open beta e presto sostituirà Origin in qualità di piattaforma primaria per PC. L'EA app è il client PC più veloce e leggero di sempre. Con il nuovo design semplificato, potrai trovare facilmente i giochi e i contenuti che stai cercando e scoprire i tuoi nuovi giochi preferiti.",
+        text:"Siamo lieti di annunciare che l'EA app ha ufficialmente abbandonato la fase open beta e presto sostituirà Origin in qualità di piattaforma primaria per PC. L'EA app è il client PC più veloce e leggero di sempre.",
       },
     ]
 
