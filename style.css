@@ -85,3 +85,24 @@ body {
 .icon-grey {
     color: var(--light-grey);
 }
+
+.ea-image-nav {
+    fill: white;
+    width: auto;
+}
+
+#imageContainerNav {
+    background: url("https://media.contentapi.ea.com/content/dam/eacom/images/2022/11/eaplay-nfs-unbound-ptf-hero-med-cover-bg-7x2-xl.jpg.adapt.crop7x2.1920w.jpg") no-repeat;
+    background-size: contain;
+    
+  }
+
+ /*  .img-main{
+    max-width: 300px;
+} */
+
+.mainSection {
+    margin: 20px;
+    padding: 40px;
+}
+
