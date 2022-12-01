@@ -2,7 +2,9 @@
     margin: 0 auto;
     padding: 2rem;
 }*/
-
+.tab-content .tab-pane .card-clone {
+    
+}
 .tab-content .tab-pane .card-clone .card {
     width: 25%;
     min-width: 20rem;

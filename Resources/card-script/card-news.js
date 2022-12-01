@@ -1,6 +1,6 @@
 //create variables for all group of cards I need
 const cardArray = document.getElementById("card_clone_array");//cards for News EA
-const cardArray1 = document.getElementById("card_clone_array1");//cards for EA Play
+// const cardArray1 = document.getElementById("card_clone_array1");//cards for EA Play
 const cardArray2 = document.getElementById("card_clone_array2");//cards for FIFA
 const cardArray3 = document.getElementById("card_clone_array3");//cards for F1
 const cardArray4 = document.getElementById("card_clone_array4");//cards for Apex Legends
@@ -65,6 +65,7 @@ const cardContent = [
         title: "Giocate a The Sims 4 gratis a partire dal 18 ottobre",
         text:"Siamo lieti di annunciare che l'EA app ha ufficialmente abbandonato la fase open beta e presto sostituirà Origin in qualità di piattaforma primaria per PC. L'EA app è il client PC più veloce e leggero di sempre.",
       },
+      
     ]
 
     //loop function
@@ -92,4 +93,3 @@ function card(linkToPage, cardImg, redTitle, date, title, text) {
       }
       
 newCards(cardArray, card, cardContent);
-newCards(cardArray1, card, cardContent);
