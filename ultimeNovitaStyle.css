@@ -39,7 +39,7 @@ nav {
   left: 16px;
   right: 16px;
   bottom: 0;
-  background: red;
+  background: var(--red-hover);
   transform: scale(0, 1);
 }
 
