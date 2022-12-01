@@ -1,0 +1,55 @@
+/*.ultime-novita {
+    margin: 0 auto;
+    padding: 2rem;
+}*/
+
+.tab-content .tab-pane .card-clone .card {
+    width: 25%;
+    min-width: 20rem;
+    height: auto;
+    //border-radius: 0%;
+    text-decoration: none;
+    color: #161616;
+    border-radius: 0rem;
+    border: 0rem;
+    cursor: pointer;
+    box-shadow: .06rem .06rem .6rem rgba(0, 0, 0, 0.3);
+    transition: transform 0.9s ease, box-shadow 0.9s ease;
+}
+
+.tab-content .tab-pane .card-clone .card:hover {
+    transform: translateY(-.5rem);
+    box-shadow: 0rem 1rem 1.5rem rgba(0, 0, 0, 0.7);
+}
+.tab-content .tab-pane .card-clone .card img {
+    border-radius: 0rem;
+}
+
+@media screen and (max-width: 767px) {
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .tab-content .tab-pane .card-clone .card {
+        width: 80%;
+        height: auto;
+        //border-radius: 0%;
+        text-decoration: none;
+        color: #161616;
+        border-radius: 0rem;
+        border: 0rem;
+        box-shadow: .06rem .06rem .6rem rgba(0, 0, 0, 0.3);
+        transition: transform 0.9s ease, box-shadow 0.9s ease;
+    }
+    .tab-content .tab-pane .card-clone .card:hover {
+        transform: translateY(-.5rem);
+        box-shadow: 0rem 1rem 1.5rem rgba(0, 0, 0, 0.7);
+    }
+
+    .tab-content .tab-pane .card-clone .card img {
+        display: none;
+    }
+    .tab-content .tab-pane .card-clone .card p {
+        display: none;
+    }
+}
