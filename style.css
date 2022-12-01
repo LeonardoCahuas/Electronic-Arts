@@ -72,6 +72,56 @@ body{
 }
 
 /*
+   GIOCHI IN EVIDENZA
+*/
+.giochi-in-evidenza{
+    font-family: "Electronic Arts Text",  "Verdana", "Helvetica", "Arial"; 
+}
+
+.gioco{
+    width: auto;
+    position: relative;
+    margin: 0 !important;
+    padding:10px;
+}
+
+.gioco-logo{
+    width: 43%;
+}
+
+.gioco-sito-ufficiale{
+    position:relative;
+    top:-40%;
+    left:0%;
+}
+
+.gioco .sito-ufficiale {
+    display: none;
+}
+
+.gioco:hover .sito-ufficiale {
+    display: block;
+}
+
+.gioco-bg{
+    width: 100%;
+    filter: brightness(60%);
+}
+
+.sito-ufficiale{
+    text-decoration: none;
+    color:white
+}
+
+.sito-ufficiale:hover{
+    text-decoration: none;
+    color:white
+}
+
+.giochi-wrapper h3{
+    font-weight: 900;
+}
+/*
        RESPONSIVE
 */
 @media only screen and (min-width:1024px){
