@@ -1,16 +1,16 @@
 //create variables for all group of cards I need
 const cardArray = document.getElementById("card_clone_array");//cards for News EA
-// const cardArray1 = document.getElementById("card_clone_array1");//cards for EA Play
-const cardArray2 = document.getElementById("card_clone_array2");//cards for FIFA
-const cardArray3 = document.getElementById("card_clone_array3");//cards for F1
-const cardArray4 = document.getElementById("card_clone_array4");//cards for Apex Legends
-const cardArray5 = document.getElementById("card_clone_array5");//cards for The Sims
-const cardArray6 = document.getElementById("card_clone_array6");//cards for BattleField
-const cardArray7 = document.getElementById("card_clone_array7");//cards for Inside EA
+// const cardArray1 = document.getElementById("card_clone_array1");//cards for EA Play CREATED
+// const cardArray2 = document.getElementById("card_clone_array2");//cards for FIFA TO DO
+// const cardArray3 = document.getElementById("card_clone_array3");//cards for F1 TO DO 
+// const cardArray4 = document.getElementById("card_clone_array4");//cards for Apex Legends TO DO
+// const cardArray5 = document.getElementById("card_clone_array5");//cards for The Sims TO DO
+// const cardArray6 = document.getElementById("card_clone_array6");//cards for BattleField TO DO
+// const cardArray7 = document.getElementById("card_clone_array7");//cards for Inside EA TO DO
 
 
 //create an array of full cards, who switch with the id
-const cardContent = [
+const cardContentNews = [
     {
       id: 0,
       linkToPage: "#",
@@ -76,7 +76,7 @@ function newCards(groupCards, item, content) {
       }
 
 //the function create a card with the parameters of the object inside the array
-function card(linkToPage, cardImg, redTitle, date, title, text) {
+function cardNews(linkToPage, cardImg, redTitle, date, title, text) {
         const card = 
         `<a href=${linkToPage} class="card">
             <img src=${cardImg} class="card-img-top" alt="${title}">
@@ -92,4 +92,4 @@ function card(linkToPage, cardImg, redTitle, date, title, text) {
         return card;
       }
       
-newCards(cardArray, card, cardContent);
+newCards(cardArray, cardNews, cardContentNews);
