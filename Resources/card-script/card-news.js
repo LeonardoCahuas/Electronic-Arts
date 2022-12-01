@@ -1,5 +1,5 @@
 //create variables for all group of cards I need
-const cardArray = document.getElementById("card_clone_array");//cards for News EA
+const cardArray = document.getElementById("card_clone_array");//cards for News EA CREATED
 // const cardArray1 = document.getElementById("card_clone_array1");//cards for EA Play CREATED
 // const cardArray2 = document.getElementById("card_clone_array2");//cards for FIFA TO DO
 // const cardArray3 = document.getElementById("card_clone_array3");//cards for F1 TO DO 
