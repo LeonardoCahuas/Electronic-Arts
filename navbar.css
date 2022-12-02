@@ -1,0 +1,94 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+@import url("root.css");
+
+
+.icon-nav-top {
+    font-size: 24px;
+    line-height: 27px;
+    color: var(--dark-gray);
+}
+
+
+/* .icon-ea-nav {
+    
+} */
+
+
+.navbar .navbar-nav .nav-item {
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: red !important;
+}
+
+
+.navbar .button-menu:hover {
+    color: red !important;
+}
+
+
+.header-box {
+    margin-left: 70px;
+    position: absolute; 
+    top: 105px;
+}
+
+.title-h1 {
+    font-size: 54px !important;
+    color: #f3f3f3;
+}
+
+.subtitle-h2 {
+    font-size: 24px;
+    color: #f3f3f3;
+    line-height: 36px;
+}
+
+.button-header {
+    width: 160px;
+    height: 60px;
+    border-radius: 3px !important;
+    margin-top: 20px;
+    background-color: #fe4646 !important;
+    border: none !important;
+}
+
+.bf-2042-image-bg {
+    width: 100vw; 
+    height: 112px; 
+    background-image: url(./Resources/images/bf-2042-season3-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.title-h2-bf-2042 {
+    font-size: 26px;
+    color: #f3f3f3;
+    line-height: 36px;
+}
+
+.bf-2042-button1 {
+    width: 160px;
+    height: 60px;
+    border-radius: 3px !important;
+    background-color: transparent !important;
+    border: none !important;
+    background: url(./Resources/images/bf-2042-white-nav-logo.svg) no-repeat 2px center;
+
+}
+
+.bf-2042-button2 {
+    width: 160px;
+    height: 60px;
+    border-radius: 3px !important;
+    background-color: var(--white) !important;
+    color: var(--black) !important;
+    border: none !important;
+}
+
+.offcanvas {
+    margin-top: 40px;
+}

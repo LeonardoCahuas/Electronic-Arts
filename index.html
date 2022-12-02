@@ -27,35 +27,37 @@
     <script src="https://kit.fontawesome.com/970be569e1.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
 <!-- NAVBAR NERA SOPRA AL MENU -->
-    <nav class="navbar-dark navbar-expand-lg bg-dark py-2 ">
+    <nav class="navbar-dark navbar-expand-lg black-background" style=" height:40px;">
       <div class="container-fluid">
-        <div class="row justify-content-end">
-          <div class="col-auto">
-            <i class="bi bi-person icon-grey bi-2x"></i>
+        <div class="row justify-content-end pe-3" style="height:40px;">
+          <div class="col-auto d-flex align-items-center">
+            <i class="bi bi-person icon-nav-top"></i>
           </div>
-          <div class="col-auto">
-            <i class="bi-10x bi-question-lg icon-grey"></i>
+          <div class="col-auto d-flex align-items-center">
+            <i class="bi-10x bi-question-lg icon-nav-top"></i>
           </div>
-          <div class="col-auto">
-            <img src="../resources/images/294689_ea_icon.svg" alt="" class="ea-image-nav" width="28px" height="28px">
+          <div class="col-auto d-flex align-items-center">
+            <img src="./Resources/images/ea_icon.svg" alt="" class="icon-ea-nav" width="32px" height="32px">
           </div>
         </div>
       </div>
     </nav>
-  <nav class="navbar navbar-expand-xl bg-light sticky-top">
-    <div class="container-fluid gap-5">
-      <i class="bi bi-three-dots-vertical bi-10x" data-bs-toggle="offcanvas" width="48" height="48" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"></i>
-      <a class="navbar-brand" href="#">
-        <img src="../Resources/images/ea-logo.png" height="30" class="d-inline-block align-top" alt="">
+    <!--NAVBAR BIANCA-->
+  <nav class="navbar navbar-expand-xl bg-dark sticky-top" style="height: 60px;">
+    <div class="container-fluid gap-4 d-flex align-items-center ps-3 m-0" style="height: 60px; background-color: var(--white);">
+      <i class="bi bi-three-dots-vertical bi-10x button-menu" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" style="font-size: 1.6rem;"></i>
+      <a class="navbar-brand" href="#" style="padding-top: 9px;">
+        <img src="../Electronic-Arts/Resources/images/ea-logo.png" width="200px" class="d-inline-block align-top" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle link-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Giochi
             </a>
             <ul class="dropdown-menu">
@@ -71,7 +73,7 @@
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li><li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle link-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Altre esperienze
             </a>
             <ul class="dropdown-menu">
@@ -81,7 +83,7 @@
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li><li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle link-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Informazioni
             </a>
             <ul class="dropdown-menu">
@@ -92,7 +94,7 @@
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle link-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Impegni
             </a>
             <ul class="dropdown-menu">
@@ -103,7 +105,7 @@
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle link-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Risorse
             </a>
             <ul class="dropdown-menu">
@@ -122,7 +124,7 @@
   <!-- OFFCANVAS MENU LATERALE (CLICK DAL NAVBAR) -->
   <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
     <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Tutti i giochi</h5>
       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
@@ -141,26 +143,45 @@
       </div>
     </div>
   </div>
-<!-- main section  -->
-<div class="container-fluid" id="imageContainerNav">
-  <div class="row">
-    <div class="col col-sm-6 mainSection">
-      <img src="https://media.contentapi.ea.com/content/dam/eacom/common/ea-play-nfs-unbound-logo-7x2-xl.png.adapt.crop2x1.1023w.png"  class="img-main" alt="">
-      <h1><a href=""></a>Versione di prova in accesso anticipato EA Play</h1>
-      <p>I membri possono provare Need for Speed™ Unbound per 10 ore!*</p>
-      <a class="btn btn-primary" href="#" role="button">Link</a>
+
+<!-- Header Hero Section  -->
+
+<div class="header-section container-fluid m-0 p-0">
+  <div class="header-image-bg">
+    <img class="img-fluid" src="./Resources/images/Header-ea.jpg" alt="">
+  </div>
+  
+  <div class="header-box d-flex flex-column col-5 ">
+    <div class="ea-play-header">
+      <img class="w-75" src="./Resources/images/ea-play-header.png" alt="">
     </div>
-    <div class="col">
-      <p>col</p>
+    <div class="title-header">
+      <h1 class="title-h1">Versione di prova in <br> accesso anticipato <br> EA Play</h1>
+    </div>
+    <div class="subtitle-header">
+      <h2 class="subtitle-h2">I membri possono provare Need for Speed™ <br> Unbound per 10 ore!*</h2>
+    </div>
+    <button type="button" class="btn btn-primary button-header">Gioca ora</button>
+
+  </div>
+</div>
+
+<!--Battlefield 2042 Banner-->
+
+<div class="bf-2042-banner container-fluid  m-0 p-0">
+  <div class="bf-2042-image-bg d-flex justify-content-around align-items-center">
+    <div>
+      <h2 class="title-h2-bf-2042">ACCESSO GRATUITO A BATTLEFIELD 2042 <br> DISPONIBILE ORA</h2>
+    </div>
+    <div class="bf-2042-buttons d-flex gap-4">
+      <button type="button" class="btn btn-primary bf-2042-button1"></button>
+      <button type="button" class="btn btn-primary bf-2042-button2">SCOPRI DI PIU'</button>
     </div>
   </div>
 </div>
 
 
 
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>  
 </body>
 </html>
