@@ -70,7 +70,9 @@ body{
     padding: 12px, 24px, 12px, 24px;
     font-size: 16px;
 }
-
+.btn-group dropup{
+    background-color: #f3f3f3;
+}
 /*
        RESPONSIVE
 */
@@ -86,4 +88,8 @@ body{
 @media only screen and (min-width:768) and (max-width:1024px) {}
 
 @media only screen and  (max-width:768px) {}
+
+
+
+
 
