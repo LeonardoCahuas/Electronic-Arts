@@ -71,6 +71,11 @@ body{
     font-size: 16px;
 }
 
+.button-empty:hover, .button-filled:hover{
+    padding: 14.5px 26.5px 14.5px 26.5px !important;
+    transition: 200ms ease-in-out;
+}
+
 /*
    GIOCHI IN EVIDENZA
 */
@@ -81,8 +86,10 @@ body{
 .gioco{
     width: auto;
     position: relative;
-    margin: 0 !important;
-    padding:10px;
+    height: max-content;
+    margin-top: 0px;
+    margin-bottom: -120px;
+    overflow: hidden;   
 }
 
 .gioco-logo{
@@ -91,26 +98,61 @@ body{
 
 .gioco-sito-ufficiale{
     position:relative;
-    top:-40%;
+    bottom: 160px;
     left:0%;
+    height: 120px;
+    gap:15px;
+}
+
+.gioco:hover .gioco-sito-ufficiale{
+    bottom: 215px;
+    transition: bottom 0.4s ease-in-out;
+}
+
+
+.gioco:hover .gioco-logo{
+    margin-bottom: 13px;
+    transition: margin-bottom 0.4s ease-in-out;
+}
+
+.giochi-wrapper{
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;    
+}
+.gioco:hover .gioco-bg{    
+    opacity: 0.18;
+    transition: opacity 400ms ease-in-out;
+}
+
+.gioco:hover .gradient{
+    background: linear-gradient(to right, rgb(0, 0, 82), rgb(255, 53, 13));
+    filter:brightness(90%);
+    transition:background-color 0.4s ease-in-out;
 }
 
 .gioco .sito-ufficiale {
-    display: none;
+    visibility: hidden;
 }
 
 .gioco:hover .sito-ufficiale {
-    display: block;
+    visibility: visible;
+    margin-top: -8px;
+    transition: margin-top 0.4s ease-in-out
 }
 
+.sito-ufficiale{
+    margin-top: -50px;
+ }
+
 .gioco-bg{
+    height: 100%;
     width: 100%;
     filter: brightness(68%);
 }
 
 .sito-ufficiale{
     text-decoration: none;
-    color:white
+    color:white;
 }
 
 .sito-ufficiale:hover{
@@ -125,8 +167,16 @@ body{
     text-shadow: 1px 0 var(--black);
     letter-spacing:1px;
     font-weight:bold;
+    margin-bottom: 38px;
 }
 
+.ultimi-giochi{
+    margin-top: 208px;
+}
+
+.ultimi-giochi:hover{
+    margin-top: 205.5px;
+}
 
 /*
        RESPONSIVE
