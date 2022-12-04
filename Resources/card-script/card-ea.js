@@ -4,7 +4,7 @@ const cardContent2 = [
     {
         id: 0,
         linkToPage: "#",
-        cardImg: "/Electronic-Arts/card_components/ea-play-dec-content-drop-featured-image.jpg.adapt.crop16x9.431p.jpg",
+        cardImg: "/card_components/ea-play-dec-content-drop-featured-image.jpg.adapt.crop16x9.431p.jpg",
         redTitle: "Electronic Arts Inc.",
         date: "14-mag-2021",
         title: "Gioca a Mass Effect<sup>TM</sup> Legendary Edition con EA Play* Pro",
@@ -13,7 +13,7 @@ const cardContent2 = [
     {
         id: 1,
         linkToPage: "#",
-        cardImg: "/Electronic-Arts/card_components/eaplay-socialpost-spotlight-fifa21-16x9.png.adapt.crop16x9.431p.png",
+        cardImg: "/card_components/eaplay-socialpost-spotlight-fifa21-16x9.png.adapt.crop16x9.431p.png",
         redTitle: "FIFA",
         date: "3-mag-2021",
         title: "Ottieni di più da FIFA21 con EA Play - Sito ufficiale EA SPORTS",
@@ -22,7 +22,7 @@ const cardContent2 = [
     {
         id: 2,
         linkToPage: "#",
-        cardImg: "/Electronic-Arts/card_components/ea-play-dec-content-drop-featured-image.jpg.adapt.crop16x9.431p.jpg",
+        cardImg: "/card_components/ea-play-dec-content-drop-featured-image.jpg.adapt.crop16x9.431p.jpg",
         redTitle: "It Takes Two",
         date: "4 Nov 2022",
         title: "It Takes Two è ora disponibile su Nintendo Switch<sup>TM</sup>",
@@ -31,7 +31,7 @@ const cardContent2 = [
     {
         id: 3,
         linkToPage: "#",
-        cardImg: "/Electronic-Arts/card_components/ea-image-210316-game-pass-article-eaonlycore-16x9.jpg.adapt.crop16x9.431p.jpg",
+        cardImg: "/card_components/ea-image-210316-game-pass-article-eaonlycore-16x9.jpg.adapt.crop16x9.431p.jpg",
         redTitle: "It Takes Two",
         date: "4 Nov 2022",
         title: "It Takes Two è ora disponibile su Nintendo Switch<sup>TM</sup>",
@@ -40,7 +40,7 @@ const cardContent2 = [
     {
         id: 4,
         linkToPage: "#",
-        cardImg: "/Electronic-Arts/card_components/ea-play-dec-content-drop-featured-image.jpg.adapt.crop16x9.431p.jpg",
+        cardImg: "/card_components/ea-play-dec-content-drop-featured-image.jpg.adapt.crop16x9.431p.jpg",
         redTitle: "It Takes Two",
         date: "4 Nov 2022",
         title: "It Takes Two è ora disponibile su Nintendo Switch<sup>TM</sup>",
@@ -49,7 +49,7 @@ const cardContent2 = [
     {
         id: 5,
         linkToPage: "#",
-        cardImg: "/Electronic-Arts/card_components/ea-play-dec-content-drop-featured-image.jpg.adapt.crop16x9.431p.jpg",
+        cardImg: "/card_components/ea-play-dec-content-drop-featured-image.jpg.adapt.crop16x9.431p.jpg",
         redTitle: "It Takes Two",
         date: "4 Nov 2022",
         title: "It Takes Two è ora disponibile su Nintendo Switch<sup>TM</sup>",
