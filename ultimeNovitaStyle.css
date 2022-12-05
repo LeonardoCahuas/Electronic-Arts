@@ -92,9 +92,10 @@ body {
 @media (max-width: 768px) {
   .navbarTabs-track-container {
     position: relative;
-    height: 60px;
+    height: 70px;
     width: 80%;
     margin: 0 auto;
+    margin-left: 15px;
     display: block;
   }
 
@@ -115,23 +116,34 @@ body {
     border: none;
     margin: 0;
     padding: 0;
+    left: 20px;
   }
 
   .button-to-moveOn {
     position: absolute;
     transform: translateY(-50%);
     cursor: pointer;
-    /*background: transparent;*/
-    top: 35px;
+    background: transparent;
+    top: 42px;
     border: 0;
+    box-shadow: 5px #eaeaea;
+    font-size: 18px;
+    padding: 0;
   }
 
   .button-move-to-right {
-    right: -30px;
+    right: -45px;
   }
 
   .button-move-to-left {
-    left: -30px;
+    left: 4px;
+    /*visibility: hidden;*/
+  }
+
+  .button-prevTab-icon,
+  .button-nextTab-icon {
+    color: grey;
+    opacity: 0.6;
   }
 
   .navbarTabs-track-container {
@@ -153,9 +165,9 @@ body {
   }
 
   .navbarTabs-track > .round-tabs > .nav-link-button {
-    width: 100px;
-    height: 30px;
-    text-align: left;
+    height: 45px;
+    width: 130px;
+    text-align: center;
     background-color: transparent;
     margin: 0;
     padding: 0;
@@ -167,8 +179,8 @@ body {
     content: "";
     position: absolute;
     height: 2px;
-    left: 10px;
-    right: 10px;
+    left: 8px;
+    right: 8px;
     bottom: 0;
     background: var(--red-hover);
     transform: scale(0, 1);
@@ -179,12 +191,14 @@ body {
     transition: transform 0.3s ease;
   }
 
+  .navbarTabs-track > .round-tabs > .nav-link-button:hover {
+    background-color: #eaeaea;
+  }
+
   .navbarTabs-track > .round-tabs > .nav-link-button > p {
-    border-right: 2px solid #eaeaea;
-    padding-left: 10px;
-    padding-right: 5px;
-    width: 100%;
-    font-size: 16px;
+    border-right: 1.5px solid #eaeaea;
+    padding: 5px 3px;
+    font-size: 17px;
   }
 
   .navbarTabs-track > .round-tabs > .nav-link-button > .last-tab {
