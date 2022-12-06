@@ -92,6 +92,8 @@ body{
     overflow: hidden;   
 }
 
+
+
 .gioco-logo{
     width: 43%;
 }
@@ -171,11 +173,12 @@ body{
 }
 
 .ultimi-giochi{
-    margin-top: 208px;
+    margin-top: 20px;
+    position: relative;
 }
 
 .ultimi-giochi:hover{
-    margin-top: 205.5px;
+    margin-top: 17.5px;
 }
 
 /*
