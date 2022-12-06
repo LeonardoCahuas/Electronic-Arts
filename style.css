@@ -72,6 +72,71 @@ body{
 }
 
 /*
+       PLAY
+*/
+
+.iscriviti-subito{
+    background:rgba(0,0,0,0);
+    border: 2px solid;
+    border-radius: 3px;
+    padding: 12px 24px 12px 24px;
+    font-size: 16px;
+    color:white
+}
+
+.play{
+    width: 100vw;
+    margin: -8px;
+}
+
+.play-logo{
+    margin-bottom: -35px;
+}
+
+.play .play-bg{
+    position: absolute;
+    object-fit: cover;
+    display: block;
+}
+
+.play .play-content{
+    position: relative;
+    left: 16%;
+    top: 100px;
+    width: fit-content;
+}
+
+.play h6{
+    font-size: 18px;
+    width: 43ch;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.play-bottom{
+    margin-top: 280px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.scopri-di-piu{
+    background:rgba(0,0,0,0);
+    border: 2px solid;
+    border-radius: 3px;
+    font-size: 18px;
+    color: var(--black);
+    font-weight:300; 
+    padding: 12px 24px 12px 24px;   
+}
+
+.play-bottom{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+/*
        RESPONSIVE
 */
 @media only screen and (min-width:1024px){
@@ -81,9 +146,36 @@ body{
     .button-empty{
         font-size: 18px !important;
     }
+    .play-bottom{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .scopri-di-piu{
+        margin-right: 16%;
+    }
+    .play-bottom h2{
+        font-size: 25px;
+        width: 30ch;
+        margin-left: 16%;
+        font-weight: 900;
+    }
 }
-
+@media only screen and  (max-width:1024) {
+    .play-bottom h2{
+        font-size: 25px;
+        font-weight: 900;
+    }
+}
 @media only screen and (min-width:768) and (max-width:1024px) {}
 
 @media only screen and  (max-width:768px) {}
+
+@media only screen and  (max-width:1024) {
+    .play-bottom{
+        flex-direction: column !important;
+        justify-content: none !important;
+    }
+}
 
