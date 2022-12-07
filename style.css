@@ -92,7 +92,9 @@ body{
     overflow: hidden;   
 }
 
-
+.row{
+    margin: 0px;
+}
 
 .gioco-logo{
     width: 43%;
@@ -169,11 +171,11 @@ body{
     text-shadow: 1px 0 var(--black);
     letter-spacing:1px;
     font-weight:bold;
-    margin-bottom: 38px;
+    margin-bottom: 0px;
 }
 
 .ultimi-giochi{
-    margin-top: 20px;
+    margin-top: 0px;
     position: relative;
 }
 
@@ -197,3 +199,17 @@ body{
 
 @media only screen and  (max-width:768px) {}
 
+@media only screen and (min-width:1500px) {
+    .giochi-wrapper{
+        max-width: 1150px;
+        margin: auto;
+        width: 100%;
+    }
+}
+
+@media only screen and (mAX-width:1500px){
+    .giochi-wrapper{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+}
