@@ -95,8 +95,8 @@ body{
 
 .play .play-bg{
     position: absolute;
-    object-fit: cover;
-    display: block;
+    width:100vw;
+    height: 500px;
 }
 
 .play .play-content{
@@ -104,19 +104,6 @@ body{
     left: 16%;
     top: 100px;
     width: fit-content;
-}
-
-.play h6{
-    font-size: 18px;
-    width: 43ch;
-    margin-bottom: 25px;
-    color: white;
-}
-
-.play-bottom{
-    margin-top: 280px;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .scopri-di-piu{
@@ -135,6 +122,20 @@ body{
     align-content: center;
     justify-content: center;
     align-items: center;
+    margin-top: 230px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.play-content h6{
+    font-size: 16px;
+    width: 30ch;
+    color:white;
+    font-weight: lighter;
+}
+
+.play-bottom h2{
+    text-align: center;
 }
 /*
        RESPONSIVE
@@ -160,6 +161,12 @@ body{
         width: 30ch;
         margin-left: 16%;
         font-weight: 900;
+    }
+    .play-content h6{
+        font-size: 18px;
+        width: 43ch;
+        margin-bottom: 25px;
+        color: white;
     }
 }
 @media only screen and  (max-width:1024) {
