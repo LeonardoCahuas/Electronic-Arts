@@ -92,7 +92,7 @@ body{
     overflow: hidden;   
 }
 
-.row{
+.giochi-in-evidenza .row{
     margin: 0px;
 }
 
@@ -112,7 +112,6 @@ body{
     bottom: 215px;
     transition: bottom 0.4s ease-in-out;
 }
-
 
 .gioco:hover .gioco-logo{
     margin-bottom: 13px;
@@ -171,7 +170,7 @@ body{
     text-shadow: 1px 0 var(--black);
     letter-spacing:1px;
     font-weight:bold;
-    margin-bottom: 0px;
+    margin-bottom: -20px;
 }
 
 .ultimi-giochi{
@@ -201,7 +200,7 @@ body{
 
 @media only screen and (min-width:1500px) {
     .giochi-wrapper{
-        max-width: 1150px;
+        max-width: 1160px;
         margin: auto;
         width: 100%;
     }
