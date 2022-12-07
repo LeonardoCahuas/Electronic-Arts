@@ -10,14 +10,13 @@ body {
   text-align: center;
   color: var(--black);
 }
-.nav-fullscreen {
-  margin-left: 25%;
-}
 
 #nav-tab {
   display: flex;
+  justify-content: center;
   border: none;
   margin-top: 35px;
+  margin-right: 18rem;
 }
 
 #nav-tab > button {
@@ -52,7 +51,7 @@ body {
 #nav-tab > button > p {
   border-right: 2px solid var(--light-grey);
   font-family: "Electronic Arts Text", Verdana, Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   padding: 0 15px 0px 15px;
   margin: 0;
 }
@@ -84,6 +83,27 @@ body {
 }
 
 /* Responsive rules section */
+@media (max-width: 1300px) {
+  #nav-tab > button > p {
+    font-size: 15px;
+  }
+
+  #nav-tab{
+    margin-right: 18rem;
+  }
+
+}
+
+@media (max-width: 1050px) {
+  #nav-tab > button > p {
+    font-size: 14px;
+  }
+
+  #nav-tab{
+    margin-right: 0;
+  }
+
+}
 
 @media (max-width: 768px) {
   .nav-novita-container {
@@ -99,9 +119,11 @@ body {
   #nav-tab {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     flex-wrap: nowrap;
     border: none;
     margin-top: 30px;
+    margin-right: 0;
     max-width: 88%;
     overflow-x: scroll;
     white-space: nowrap;
@@ -113,7 +135,8 @@ body {
   }
 
   .nav-fullscreen {
-    margin-left: 35px;
+    margin-left: 30px;
+    margin-right: 0;
     padding: 0;
     position: relative;
   }
