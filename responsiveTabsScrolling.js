@@ -1,5 +1,5 @@
 const tabsTrack = document.querySelector(".nav-tab-id");
-//console.log(navTrack)
+//console.log(tabsTrack)
 const nextTabButton = document.querySelector(".button-move-to-right");
 //console.log(nextTabButton); //--> bottone che serve a scorrere in avanti con le tabs successive
 const prevTabButton = document.querySelector(".button-move-to-left");
