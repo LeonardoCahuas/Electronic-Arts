@@ -88,10 +88,9 @@ body {
     font-size: 15px;
   }
 
-  #nav-tab{
+  #nav-tab {
     margin-right: 18rem;
   }
-
 }
 
 @media (max-width: 1050px) {
@@ -99,10 +98,9 @@ body {
     font-size: 14px;
   }
 
-  #nav-tab{
+  #nav-tab {
     margin-right: 0;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -135,7 +133,7 @@ body {
   }
 
   .nav-fullscreen {
-    margin-left: 30px;
+    margin-left: 50px;
     margin-right: 0;
     padding: 0;
     position: relative;
@@ -146,19 +144,26 @@ body {
     transform: translateY(25%);
     cursor: pointer;
     background: transparent;
-    top: 90px;
+    top: 75px;
     border: 0;
     font-size: 18px;
-    padding: 0;
+    padding: 8px 8px 18px 10px;
+    margin: 0;
     display: block;
+  }
+
+  .button-to-moveOn:active {
+    background-color: rgba(203, 236, 246, 0.914);
   }
 
   .button-move-to-right {
     right: 15px;
+    box-shadow: -5px 0 8px 10px rgba(252, 250, 250, 0.6);
   }
 
   .button-move-to-left {
-    left: 15px;
+    left: 0;
+    box-shadow: 5px 0 10px 0px rgba(252, 250, 250, 0.8);
     visibility: hidden;
   }
 
