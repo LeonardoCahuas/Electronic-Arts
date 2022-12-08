@@ -4,7 +4,7 @@ const cardContent3 = [
     {
         id: 0,
         linkToPage: "#",
-        cardImg: "/card_components/f23-worldcup-featureimg-16x9.jpg.adapt.crop16x9.431p.jpg",
+        cardImg: "/card_components/wc-predictor-trophy-image-16x9-carousel-1-1.png.adapt.crop16x9.431p.png",
         redTitle: "FIFA",
         date:"8-nov-2022",
         title: "Pronostico EA SPORTS FIFA World Cup 2022",

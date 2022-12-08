@@ -1,6 +1,6 @@
 const cardArray4 = document.getElementById("card_clone_array4");
 
-const cardContentApex = [
+const cardContentSims = [
     {
         id: 0,
         linkToPage: "#",
@@ -57,14 +57,14 @@ const cardContentApex = [
     },
 ]
 
-function newCardApex(group4, item4, content4) {
+function newCardSims(group4, item4, content4) {
     for(let i = 0; i < content4.length; i++) {
         group4.innerHTML += item4(content4[i].linkToPage, content4[i].cardImg, content4[i].redTitle, content4[i].date, content4[i].title, content4[i].text)
     }
 }
 
-function cardApex(linkToPage, cardImg, redTitle, date, title, text) {
-    const card5 =  `<a href=${linkToPage} class="card">
+function cardSims(linkToPage, cardImg, redTitle, date, title, text) {
+    const cardTheSims =  `<a href=${linkToPage} class="card">
     <img src=${cardImg} class="card-img-top" alt="${title}">
         <div class="card-body p-4">
             <div class="d-flex flex-column align-items-center flex-md-row align-items-md-start mb-2">
@@ -75,7 +75,7 @@ function cardApex(linkToPage, cardImg, redTitle, date, title, text) {
             <p class="card-text text-dark">${text}</p>
         </div>
 </a>`;
-return card5;
+return cardTheSims;
 }
 
-newCardApex(cardArray4, cardApex, cardContentApex)
+newCardSims(cardArray4, cardSims, cardContentSims)
