@@ -73,6 +73,94 @@ body{
 .btn-group dropup{
     background-color: #f3f3f3;
 }
+
+/*
+       CARD PLAY & FOOTER
+*/
+
+.button button{
+    color: #161616;
+    border: 2px solid black;
+    padding: 12px 24px;
+
+}
+.button button:hover{
+    color: #161616;
+    border: 2px solid black;
+    transform: scale(1.1);
+   
+}
+.button-card button{
+    color: white;
+    border: 2px solid white;
+    padding: 12px 24px;
+
+}
+.button-card button:hover{
+    color: white;
+    border: 2px solid white;
+    transform: scale(1.1);
+   
+}
+
+
+  .cta{
+    background-color: var(--light-blue);
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .decoration{
+    text-decoration: none;
+  }
+
+ 
+ .button-one button{
+    height: 65px;
+    width: 194px;
+    border: 2px solid #c2c2c2;
+ }
+ .button-one button:hover{
+   border: 2px solid #c2c2c2;
+   transform: scale(1.1);
+ }
+ #regional-dropdown{
+  position: absolute;
+  right: 15px;
+  bottom: 5px;
+ }
+ .btn{
+    position: relative;
+ }
+ #id-button{
+    color: #5a5a58;
+ }
+ #banner-right{
+    position: relative;
+   
+ }
+ #banner-p svg{
+  position: absolute;
+ }
+ #banner-p{
+    padding-bottom: 5px;
+ }
+.second-line{
+    position: relative;
+}
+#img-seal{
+    position: absolute;
+    bottom: 30px;
+    right: 45px;
+}
+.bigger-svg{
+    transform-origin: 50% 50%;
+}
+.bigger-svg:hover{
+    transform: scale(1.3);
+}
+
+ 
 /*
        RESPONSIVE
 */
