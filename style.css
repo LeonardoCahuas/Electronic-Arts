@@ -1,4 +1,6 @@
-@import "design.css";
+@import "./design.css";
+@import "./navbar.css";
+@import "./root.css";
 @import url(//db.onlinewebfonts.com/c/48656eabd3fef6464367d956315c749a?family=Electronic+Arts+Text);
 @font-face {font-family: "Electronic Arts Text"; 
     src: url("//db.onlinewebfonts.com/t/48656eabd3fef6464367d956315c749a.eot"); 
