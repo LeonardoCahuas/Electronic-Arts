@@ -1,6 +1,57 @@
+
+@import "design.css";
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
 @import url("navbar.css");
 @import url("root.css");
+@import url(//db.onlinewebfonts.com/c/48656eabd3fef6464367d956315c749a?family=Electronic+Arts+Text);
+@font-face {font-family: "Electronic Arts Text"; 
+    src: url("//db.onlinewebfonts.com/t/48656eabd3fef6464367d956315c749a.eot"); 
+    src: url("//db.onlinewebfonts.com/t/48656eabd3fef6464367d956315c749a.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/48656eabd3fef6464367d956315c749a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/48656eabd3fef6464367d956315c749a.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/48656eabd3fef6464367d956315c749a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/48656eabd3fef6464367d956315c749a.svg#Electronic Arts Text") format("svg"); 
+}
+
+:root{
+    --black: #161616;
+    --red-hover: #ff4d4c;
+    --footer-red: #ff4646;
+    --light-grey: #f3f3f3;
+    --white: #FFFFFF;
+    --light-blue: #6fb1d5;
+}
+
+body{
+    font-family: "Electronic Arts Text",  "Verdana", "Helvetica", "Arial", sans-serif; 
+}
+
+/*
+       TEXT AND BACKGROUND COLORS
+*/
+
+.black-font{
+    color: var(--black);
+}
+.black-background{
+    background-color: var(--black);
+}
+.hover-red{
+    color: var(--red-hover);
+}
+.white-background{
+    background-color: var(--white);
+}
+.white-font{
+    color: var(--white);
+}
+.light-grey-background{
+    background-color: var(--light-grey);
+}
+.light-grey-font{
+    color: var(--light-grey);
+}
+
+/* @import "design.css"; */
+
 
 
 .black-font{
@@ -52,9 +103,51 @@
     color: var(--light-blue)
 }
 
+
 .light-blue-background{
     background-color: var(--light-blue);
 }
+
+
+/*
+        HOVER EFFECTS
+*/
+.red-hover:hover {
+    color: var(--red-hover);
+}
+ 
+/*
+         BUTTONS
+*/
+.button-filled{
+    border: none;
+    border-radius: 3px;
+    padding: 12px, 24px, 12px, 24px;
+    font-size: 16px;
+}
+.button-empty{
+    background:rgba(0,0,0,0);
+    border: 2px solid;
+    border-radius: 3px;
+    padding: 12px, 24px, 12px, 24px;
+    font-size: 16px;
+}
+
+/*
+       RESPONSIVE
+*/
+@media only screen and (min-width:1024px){
+    .button-filled{
+        font-size: 18px !important;
+    }
+    .button-empty{
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (min-width:768) and (max-width:1024px) {}
+
+@media only screen and  (max-width:768px) {}
 
 .red-hover:hover {
    color: var(--red-hover);
@@ -78,6 +171,4 @@ body {
 .icon-grey {
     color: var(--light-grey);
 }
-
-
 
