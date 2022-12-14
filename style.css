@@ -1,4 +1,7 @@
-@import "design.css";
+@import url("giochi-in-evidenza.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+@import url("navbar.css");
+@import url("root.css");
 @import url(//db.onlinewebfonts.com/c/48656eabd3fef6464367d956315c749a?family=Electronic+Arts+Text);
 @font-face {font-family: "Electronic Arts Text"; 
     src: url("//db.onlinewebfonts.com/t/48656eabd3fef6464367d956315c749a.eot"); 
@@ -17,11 +20,13 @@
 }
 
 body{
-    font-family: "Electronic Arts Text",  "Verdana", "Helvetica", "Arial"; 
+    font-family: "Electronic Arts Text",  "Verdana", "Helvetica", "Arial", sans-serif; 
 }
+
 /*
        TEXT AND BACKGROUND COLORS
 */
+
 .black-font{
     color: var(--black);
 }
@@ -67,138 +72,8 @@ body{
     background:rgba(0,0,0,0);
     border: 2px solid;
     border-radius: 3px;
-    padding: 12px 24px 12px 24px;
+    padding: 12px, 24px, 12px, 24px;
     font-size: 16px;
-}
-
-.button-empty:hover, .button-filled:hover{
-    padding: 14.5px 26.5px 14.5px 26.5px !important;
-    transition:padding 200ms ease-in-out;
-}
-
-/*
-   GIOCHI IN EVIDENZA
-*/
-.giochi-in-evidenza{
-    font-family: "Electronic Arts Text",  "Verdana", "Helvetica", "Arial"; 
-}
-
-.giochi{
-   display:grid;  
-   grid-template-columns: repeat(2, 40vw);
-   grid-template-rows: repeat(3, 40vw);
-   gap:20px;
-   align-content: center;
-   justify-content: center;
-}
-
-.gioco{
-    width: auto;
-    position: relative;   
-    margin-top: 0px;   
-    overflow: hidden; 
-    justify-content: center;  
-}
-
-.giochi-in-evidenza .row{
-    margin: 0px;
-}
-
-.gioco-logo{
-    width: 43%;
-}
-
-.gradie{
-    width: 100%;
-    height: 100%;
-}
-
-.gioco-sito-ufficiale{   
-    position: absolute;
-    left:0%;
-    top:32%;
-    height: 120px;
-    gap:15px;
-    justify-content: center;
-    align-content: center;   
-}
-
-.gioco:hover .gioco-sito-ufficiale{
-    bottom: 215px;
-    transition: bottom 0.4s ease-in-out;
-}
-
-.gioco:hover .gioco{
-    overflow:visible;
-}
-
-.gioco:hover .gioco-logo{
-    margin-bottom: 13px;
-    transition: margin-bottom 0.4s ease-in-out;
-}
-
-.giochi-wrapper{
-    margin-top: 50px !important;
-}
-.gioco:hover .gioco-bg{    
-    opacity: 0.18;
-    transition: opacity 400ms ease-in-out;
-}
-
-.gioco:hover .gradient{
-    background: linear-gradient(to right, rgb(0, 0, 82), rgb(255, 53, 13));
-    filter:brightness(90%);
-    transition:background-color 0.4s ease-in-out;
-}
-
-.gioco .sito-ufficiale {
-    visibility: hidden;
-}
-
-.gioco:hover .sito-ufficiale {
-    visibility: visible;
-    margin-top: -8px;
-    transition: margin-top 0.4s ease-in-out
-}
-
-.sito-ufficiale{
-    margin-top: -50px;
- }
-
-.gioco-bg{
-    height: 100%;
-    width: 100%;
-    filter: brightness(68%);
-}
-
-.sito-ufficiale{
-    text-decoration: none;
-    color:white;
-}
-
-.sito-ufficiale:hover{
-    text-decoration: none;
-    color:white
-}
-
-.giochi-wrapper h3{
-    font-weight: 900;
-    font-size: 30px;
-    color:var(--black);    
-    text-shadow: 1px 0 var(--black);
-    letter-spacing:1px;
-    font-weight:bold;
-    margin-bottom: -20px;
-}
-
-.ultimi-giochi{
-    position: relative;
-    margin-top: 30px;
-}
-
-.ultimi-giochi:hover{
-    margin-top: 27.5px;
-    transition: margin-top 200ms ease-in-out;
 }
 
 /*
@@ -211,66 +86,9 @@ body{
     .button-empty{
         font-size: 18px !important;
     }
-    .giochi{
-        display:grid;  
-        grid-template-columns: repeat(3, 26.5vw);
-        grid-template-rows: repeat(2, 26.5vw);
-        gap:20px;
-        align-content: center;
-        justify-content: center;
-    }
-    .giochi-wrapper h3{
-        font-weight: 900;
-        font-size: 40px;
-        color:var(--black);    
-        text-shadow: 1px 0 var(--black);
-        letter-spacing:1px;
-        font-weight:bold;
-        margin-bottom: -20px;
-    }
 }
 
-@media only screen and (min-width:768) and (max-width:1024px) {
-    .giochi{
-        display:grid;  
-        grid-template-columns: repeat(2, 40vw);
-        grid-template-rows: repeat(3, 40vw);
-        gap:20px;
-        align-content: center;
-        justify-content: center;
-     }
-}
+@media only screen and (min-width:768) and (max-width:1024px) {}
 
-@media only screen and  (max-width:768px) {
-    .giochi{
-        display:grid;  
-        grid-template-columns: repeat(1, 80vw);
-        grid-template-rows: repeat(6, 80vw);
-        gap:20px;
-        align-content: center;
-        justify-content: center;
-     }
-}
+@media only screen and  (max-width:768px) {}
 
-@media only screen and (min-width:1500px) {
-    .giochi-wrapper{
-        max-width: 1160px;
-        margin: auto;
-        width: 100%;
-    }
-    .giochi{
-        display:grid;  
-        grid-template-columns: repeat(3, 373px);
-        grid-template-rows: repeat(2, 373px);
-        gap:20px;
-        align-content: center;
-        justify-content: center;
-     }
-}
-
-@media only screen and (max-width:1500px){
-    .giochi-wrapper{
-        margin-left: 35px;
-        margin-right: 35px;
-    }
-}
