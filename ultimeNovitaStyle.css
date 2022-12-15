@@ -82,6 +82,12 @@ body {
   justify-content: center;
 }
 
+.ultime-novita .piu-dettagli{
+  padding: 12px 24px;
+  margin: 45px;
+}
+
+
 /* Responsive rules section */
 @media (max-width: 1300px) {
   #nav-tab > button > p {
