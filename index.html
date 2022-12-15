@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="it">
-<head>
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -26,15 +26,11 @@
     <meta property="og:image" content="" />
     <script src="https://kit.fontawesome.com/970be569e1.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-
-</head>
-<body>
-
-    <link rel="stylesheet" href="style.css" /> 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">   
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
-    <link rel="shortcut icon" href="../Resources/images/favicon.ico"/>
-    <script src="https://kit.fontawesome.com/6fb2ab27b9.js" crossorigin="anonymous"></script>   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 <body>
 
@@ -262,7 +258,134 @@
       <button class="button-empty ultimi-giochi">Ultimi giochi</button>
     </div>
   </div>
-</body>
+
+  <div class="ultime-novita">
+    <div class="title-section">
+      <h3>Ultime novità</h3>
+    </div>
+    
+      <div id="nav-novita-container">
+        <button class="button-to-moveOn button-move-to-left"><i class="fa-solid fa-less-than button-prevTab-icon"></i></button>
+        <nav class="nav-fullscreen">
+          <div class="nav nav-tabs nav-tab-id" id="nav-tab" role="tablist">
+            <button class="nav-link nav-link-button current-tab active" id="nav-notizie-tab" data-bs-toggle="tab" data-bs-target="#nav-notizie" type="button" role="tab" aria-controls="nav-notizie" aria-selected="true"><p>Notizie EA</p></button>
+            <button class="nav-link nav-link-button" id="nav-EAplay-tab" data-bs-toggle="tab" data-bs-target="#nav-EAplay" type="button" role="tab" aria-controls="nav-EAplay" aria-selected="false"><p>EA Play</p></button>
+            <button class="nav-link nav-link-button" id="nav-fifa-tab" data-bs-toggle="tab" data-bs-target="#nav-fifa" type="button" role="tab" aria-controls="nav-fifa" aria-selected="false"><p>FIFA</p></button>
+            <button class="nav-link nav-link-button" id="nav-f1-tab" data-bs-toggle="tab" data-bs-target="#nav-f1" type="button" role="tab" aria-controls="nav-f1" aria-selected="false"><p>F1</p></button>
+            <button class="nav-link nav-link-button" id="nav-apexLegends-tab" data-bs-toggle="tab" data-bs-target="#nav-apexLegends" type="button" role="tab" aria-controls="nav-apexLegends" aria-selected="false"><p>Apex Legends</p></button>
+            <button class="nav-link nav-link-button" id="nav-theSims-tab" data-bs-toggle="tab" data-bs-target="#nav-theSims" type="button" role="tab" aria-controls="nav-theSims" aria-selected="false"><p>The Sims 4</p></button>
+            <button class="nav-link nav-link-button" id="nav-battlefield-tab" data-bs-toggle="tab" data-bs-target="#nav-battlefield" type="button" role="tab" aria-controls="nav-battlefield" aria-selected="false"><p>Battlefield</p></button>
+            <button class="nav-link nav-link-button" id="nav-insideEA-tab" data-bs-toggle="tab" data-bs-target="#nav-insideEA" type="button" role="tab" aria-controls="nav-insideEA" aria-selected="false"><p>Inside EA</p></button>
+          </div>
+        </nav>
+        <button class="button-to-moveOn button-move-to-right"><i class="fa-solid fa-greater-than button-nextTab-icon"></i></button>
+      </div>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-notizie" role="tabpanel" aria-labelledby="nav-notizie-tab" tabindex="0">
+      <div class="tab-content mt-5 d-flex" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="news-ea" role="tabpanel" aria-labelledby="news-tab" tabindex="0">
+          <section class="card-clone">
+            <div class="container cards-container" style="max-width: 90rem; margin: 0 auto;">
+              <div id="card_clone_array" class="d-flex flex-wrap justify-content-center gap-4">
+            </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      </div>
+      <div class="tab-pane fade mt-5" id="nav-EAplay" role="tabpanel" aria-labelledby="nav-EAplay-tab" tabindex="0">
+        <div class="cards-container">
+          <section class="card-clone">
+            <div class="container cards-container" style="max-width: 90rem; margin: 0 auto;">
+              <div id="card_clone_array1" class="d-flex flex-wrap justify-content-center gap-4">
+            </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="tab-pane fade mt-5" id="nav-fifa" role="tabpanel" aria-labelledby="nav-fifa-tab" tabindex="0">        
+        <div class="cards-container">
+          <section class="card-clone">
+            <div class="container cards-container" style="max-width: 90rem; margin: 0 auto;">
+              <div id="card_clone_array2" class="d-flex flex-wrap justify-content-center gap-4">
+            </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="tab-pane fade mt-5" id="nav-apexLegends" role="tabpanel" aria-labelledby="nav-apexLegends-tab" tabindex="0">        
+        <div class="cards-container">
+          <section class="card-clone">
+            <div class="container cards-container" style="max-width: 90rem; margin: 0 auto;">
+              <div id="card_clone_array7" class="d-flex flex-wrap justify-content-center gap-4">
+            </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="tab-pane fade mt-5" id="nav-f1" role="tabpanel" aria-labelledby="nav-f1-tab" tabindex="0">
+        <div class="cards-container">
+          <section class="card-clone">
+            <div class="container cards-container" style="max-width: 90rem; margin: 0 auto;">
+              <div id="card_clone_array3" class="d-flex flex-wrap justify-content-center gap-4">
+            </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="tab-pane fade mt-5" id="nav-theSims" role="tabpanel" aria-labelledby="nav-theSims-tab" tabindex="0">
+        <div class="cards-container">
+          <section class="card-clone">
+            <div class="container cards-container" style="max-width: 90rem; margin: 0 auto;">
+              <div id="card_clone_array4" class="d-flex flex-wrap justify-content-center gap-4">
+            </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="tab-pane fade mt-5" id="nav-battlefield" role="tabpanel" aria-labelledby="nav-battlefield-tab" tabindex="0">
+        <div class="cards-container">
+          <section class="card-clone">
+            <div class="container cards-container" style="max-width: 90rem; margin: 0 auto;">
+              <div id="card_clone_array5" class="d-flex flex-wrap justify-content-center gap-4">
+            </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="tab-pane fade mt-5" id="nav-insideEA" role="tabpanel" aria-labelledby="nav-insideEA-tab" tabindex="0">
+        <div class="cards-container">
+          <section class="card-clone">
+            <div class="container cards-container" style="max-width: 90rem; margin: 0 auto;">
+              <div id="card_clone_array6" class="d-flex flex-wrap justify-content-center gap-4">
+            </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="play"></div>
+
+    <div class="footer-top"></div>
+
+    <div class="footer-bottom"></div>
+    
+    
+    <script src="/Resources/card-script/card-news.js"></script>
+    <script src="/Resources/card-script/card-ea.js"></script>
+    <script src="/Resources/card-script/card-fifa.js"></script>
+    <script src="/Resources/card-script/card-apex.js"></script>
+    <script src="/Resources/card-script/card-f1.js"></script>
+    <script src="/Resources/card-script/card-thesims.js"></script>
+    <script src="/Resources/card-script/card-battlefield.js"></script>
+    <script src="/Resources/card-script/card-inside.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="responsiveTabsScrolling.js"></script>
+  
+  </body>
+
 
 </html>
 
