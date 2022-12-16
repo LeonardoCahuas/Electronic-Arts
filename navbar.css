@@ -156,6 +156,12 @@
     background-size: cover;
 }
 
+.column {
+    column-count: 2;
+    width: 500px;
+    height: 300px;
+  }
+
 
 
 
