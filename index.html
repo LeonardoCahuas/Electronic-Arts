@@ -93,6 +93,22 @@
           aria-controls="offcanvasExample"
           style="font-size: 1.6rem"
         ></i>
+
+        <!-- Inizio Pulsante Menu visibile solo su mobile -->
+        <div class="btn mobileMenu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMobile" aria-controls="offcanvasMobile">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+          <img
+            src="../Electronic-Arts/Resources/images/ea-logo.png"
+            class="d-inline-block align-top"
+            width="200px"
+            alt=""
+          >
+        </div>
+        <!-- fine pulsante menu -->
+
+        <!-- Logo -->
         <a class="navbar-brand" href="#" style="padding-top: 9px">
           <img
             src="../Electronic-Arts/Resources/images/ea-logo.png"
@@ -101,6 +117,8 @@
             alt=""
           />
         </a>
+        <!-- fine logo -->
+        <!-- inizio menu Desktop -->
         <button
           class="navbar-toggler"
           type="button"
@@ -329,6 +347,106 @@
             </div>
             <div class="col-5" id="simps-4">
               <img src="" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- offcanvas menu mobile  -->
+    
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMobile" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                Giochi
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Altre esperienze
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul class="list-group list-group-flush ">
+                  <li class="list-group-item mobileMenuLink"><a href="#">EA Play</a></li>
+                  <li class="list-group-item mobileMenuLink"><a href="#">l'EA App</a></li>
+                  <li class="list-group-item mobileMenuLink"><a href="#">Cometizioni Videoludiche</a></li>
+                  <li class="list-group-item mobileMenuLink"><a href="#">Diretta di EA Play</a></li>
+                  <li class="list-group-item mobileMenuLink"><a href="#">Test di Gioco</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Informazioni
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul class="list-group list-group-flush ">
+                  <li class="list-group-item mobileMenuLink"><a href="#">Società</a></li>
+                  <li class="list-group-item mobileMenuLink"><a href="#">EA Studi</a></li>
+                  <li class="list-group-item mobileMenuLink"><a href="#">La nostra tecnologia</a></li>
+                  <li class="list-group-item mobileMenuLink"><a href="#">EA Partners</a></li>
+                  <li class="list-group-item mobileMenuLink"><a href="#">Notizie</a></li>
+                  <li class="list-group-item mobileMenuLink"><a href="#">Inside EA</a></li>
+                </ul>             
+               </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Impegni
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                  <ul class="list-group list-group-flush ">
+                    <li class="list-group-item mobileMenuLink"><a href="#">I nostri impegni</a></li>
+                    <li class="list-group-item mobileMenuLink"><a href="#">Gioco Positivo</a></li>
+                    <li class="list-group-item mobileMenuLink"><a href="#">Diversità e inclusione</a></li>
+                    <li class="list-group-item mobileMenuLink"><a href="#">Impatto sociale</a></li>
+                    <li class="list-group-item mobileMenuLink"><a href="#">Persone e cultura</a></li>
+                    <li class="list-group-item mobileMenuLink"><a href="#">Ambiente</a></li>
+                  </ul>             
+              </div>             
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                Risorse
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul class="list-group list-group-flush ">
+                  <li class="list-group-item mobileMenuLink"><a href="#">Aiuto</a></li>
+                  <li class="list-group-item mobileMenuLink"><a href="#">Forum</a></li>
+                  <li class="list-group-item mobileMenuLink"><a href="#">Filtro Famiglia</a></li>
+                  <li class="list-group-item mobileMenuLink"><a href="#">Accessibilità</a></li>
+                  <li class="list-group-item mobileMenuLink"><a href="#">Stampa</a></li>
+                  <li class="list-group-item mobileMenuLink"><a href="#">Investitori</a></li>
+                </ul>               
+              </div>
             </div>
           </div>
         </div>
