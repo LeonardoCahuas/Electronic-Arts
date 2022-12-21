@@ -156,9 +156,42 @@
     background-size: cover;
 }
 
+.column {
+    column-count: 2;
+    width: 500px;
+    height: 300px;
+  }
+
+#icon-offset-navbar {
+    gap: 300px;
+}
+#icon-offset-navbar2 {
+    padding-top: 20px;
+    gap: 50px;
+}
+
+#offcanvasTop, #offcanvasTop2{
+    height: 400px;
+}
+
+#userAccount {
+    text-decoration: none;
+}
 
 
+#help-nav {
+color: red;
+text-decoration: none;
+}
 
+#help-center-nav {
+    color: white;
+}
 
-
-
+#help-title-navbar {
+    font-weight: 900;
+    font-size:16px;
+    text-align: center;
+    color: white
+    
+}
