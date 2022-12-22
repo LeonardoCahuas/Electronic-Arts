@@ -5,7 +5,7 @@ const nextTabButton = document.querySelector(".button-move-to-right");
 const prevTabButton = document.querySelector(".button-move-to-left");
 //console.log(prevTabButton); //--> bottone che serve a scorrere indietro con le tabs precedenti
 const trackTabs = Array.from(trackTabsContainer.children); //--> array composto da tutti i button (children di #nav-tab div)
-console.log(trackTabs);
+//console.log(trackTabs);
 
 //const tabWidth = trackTabs[0].getBoundingClientRect().width;
 //console.log(tabWidth);
