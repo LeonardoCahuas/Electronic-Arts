@@ -89,6 +89,12 @@ body{
     border-radius: 3px;
     padding: 12px, 24px, 12px, 24px;
 }
+
+.button-empty:hover, .button-filled:hover, i:hover{
+    transform: scale(1.05);
+    transition: transform 300ms ease-in-out;
+}
+
 @media only screen and (min-width:1024px) and (max-width:949px) {
 
 }
