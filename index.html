@@ -356,14 +356,14 @@
     <!-- offcanvas menu mobile  -->
     
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMobile" aria-labelledby="offcanvasExampleLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+      <div class="offcanvas-header bg-light">
+        <h5 class="offcanvas-title " id="offcanvasExampleLabel"><img src="./Resources/images/ea-logo.png" alt="" width="200px"></h5>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
-        <div class="accordion" id="accordionExample">
+        <div class="accordion accordion-flush" id="accordionExample">
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
+            <h2 class="accordion-header " id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                 Giochi
               </button>
@@ -374,7 +374,7 @@
               </div>
             </div>
           </div>
-          <div class="accordion-item">
+          <div class="accordion-item ">
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 Altre esperienze
@@ -455,51 +455,37 @@
 
     <!-- Header Hero Section  -->
 
-    <div class="header-section container-fluid m-0 p-0">
-      <div class="header-image-bg">
-        <img class="img-fluid" src="./Resources/images/Header-ea.jpg" alt="" />
-      </div>
-
-      <div class="header-box d-flex flex-column col-5">
-        <div class="ea-play-header">
-          <img
-            class="w-75"
-            src="./Resources/images/ea-play-header.png"
-            alt=""
-          />
+    <div id="header-main" class="header-section d-flex flex-column align-items-center justify-content-center m-0 p-0">
+        <div id="header-container" class="header-box d-flex  align-items-center">
+          <div class="title-header">
+            <h1 class="title-h1">
+              Saldi festivi
+            </h1>
+          </div>
+          <div class="subtitle-header">
+            <h2 class="subtitle-h2">
+              Risparmia alla grande* sui migliori titoli
+            </h2>
+          </div>
+          <button type="button" class="btn btn-info button-header">
+            Sfoglia Offerte
+          </button>
         </div>
-        <div class="title-header">
-          <h1 class="title-h1">
-            Versione di prova in <br />
-            accesso anticipato <br />
-            EA Play
-          </h1>
-        </div>
-        <div class="subtitle-header">
-          <h2 class="subtitle-h2">
-            I membri possono provare Need for Speed™ <br />
-            Unbound per 10 ore!*
-          </h2>
-        </div>
-        <button type="button" class="btn btn-primary button-header">
-          Gioca ora
-        </button>
-      </div>
     </div>
 
     <!--Battlefield 2042 Banner-->
 
-    <div class="bf-2042-banner container-fluid m-0 p-0">
+    <div class="bf-2042-banner d-flex flex-row flex-grow-1 m-0 p-0">
       <div
         class="bf-2042-image-bg d-flex justify-content-around align-items-center"
       >
         <div>
           <h2 class="title-h2-bf-2042">
-            ACCESSO GRATUITO A BATTLEFIELD 2042 <br />
-            DISPONIBILE ORA
+            ACCESSO GRATUITO A BATTLEFIELD 2042 SU 
           </h2>
+          <h2 class="title-h2-bf-2042">PLAYSTATION</h2>
         </div>
-        <div class="bf-2042-buttons d-flex gap-4">
+        <div class="bf-2042-buttons d-flex  gap-4">
           <button
             type="button"
             class="btn btn-primary bf-2042-button1"
