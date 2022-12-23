@@ -1,3 +1,6 @@
+* {
+    font-family: "Electronic Arts Text",  "Verdana", "Helvetica", "Arial", sans-serif;
+}
 
 .icon-nav-top {
     font-size: 24px;
@@ -5,18 +8,70 @@
     color: var(--dark-gray);
 }
 
-.accordion-item:hover {
-   
-}
 
 .accordion-button  {
     background-color: white !important;   
     box-shadow: none !important;
 }
 
+.btn-close {
+    background-color: white !important;   
+    box-shadow: none !important;
+}
+
+.offcanvas-title {
+    color: #aeaeae !important;
+    font-size: 18px !important;
+}
+
+.offcanvas-title:hover {
+    color: red !important;
+    cursor: pointer;
+}
 
 .accordion-button:hover,.accordion-button:focus{
     color: red !important;
+}
+
+
+.dropdown-menu {
+    background-color: #f3f3f3 !important;
+    opacity: 95%;
+}
+
+.dropdown-menu:focus .dropdown {
+    color: red !important;
+}
+
+
+.dropdow-giochi {
+    padding-left: 50% !important;
+    padding-top: 40px !important;
+    width: 450px !important;
+    height: 360px !important;
+}
+
+.dropdown-item-text {
+    font-family: 'ElectronicArtsTextBold';
+}
+
+.dropdown-item:hover {
+    color: red !important;
+    background-color: #f3f3f3 !important;
+}
+
+.divider-giochi-1 {
+    width: 150px !important;
+    margin-left: 10px !important;
+}
+
+.divider-giochi-2 {
+    width: 115px !important;
+    margin-left: 10px !important;
+}
+
+.dropdown-item-text {
+    padding: 10px !important;
 }
 
 #header-main {
@@ -47,11 +102,6 @@
     color: red !important;
 }
 
-
-/* .header-box {
-    margin-left: 70px;
-    position: absolute; 
-} */
 
 .title-h1 {
     font-size: 54px !important;
@@ -113,7 +163,8 @@
 
 #ea-play {
     background-image: url("https://media.contentapi.ea.com/content/dam/gin/images/2021/04/ea-play-16x9-png.adapt.crop1x1.767w.");
-    height: 350px;
+    width: 350px;
+    height: 330px;
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
@@ -174,6 +225,12 @@
     background-size: cover;
 }
 
+.logo-side-hover-effect:hover {
+    transform: scale(1.20);
+    transition: transform 400ms ease-in-out;
+    cursor: pointer;
+}
+
 .column {
     column-count: 2;
     width: 500px;
@@ -186,6 +243,16 @@
 #icon-offset-navbar2 {
     padding-top: 20px;
     gap: 50px;
+}
+
+.offcanvas {
+    width: 420px !important;
+}
+
+.btn-close {
+    font-size: 12px !important;
+    color: black !important;
+    
 }
 
 #offcanvasTop, #offcanvasTop2{
@@ -214,14 +281,13 @@ text-decoration: none;
     
 }
 
-
 .mobileMenuLink a{
     text-decoration: none  !important;
     color: grey !important;
     
 }
 
-.mobileMenuLink :hover{
+.mobileMenuLink:hover{
     color: red !important;
 }
 
@@ -229,9 +295,71 @@ text-decoration: none;
     display: none !important;
 }
 
+.dot-menu:hover {
+    transform: scale(1.30);
+    transition: transform 300ms ease-in-out;
+}
+
+.btn-close-mobile-menu {
+    background-color: transparent !important;
+    border: solid 1px black !important;
+    border-radius: 50px !important;
+}
+
+#offcanvasExampleLabel {
+    margin-top: -2px !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    color: red !important;
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+
+.accordion-item {
+    border-color: black !important;
+}
+
+.list-group-item a:hover {
+   color: red !important;
+}
+
+.offcanvas.offcanvas-start {
+    top: 8px !important;
+}
+
+.list-mobile-giochi .list-group-item{
+    font-size: 14px !important;
+    border: none !important;
+}
+
+.list-group-item.mobileMenuLink.menu-title:hover {
+    color: black !important;
+}
+
+.title-h2-bf-2042 {
+    max-width: 550px;
+}
+
+
+
+
+/* Breackpoints -------------------------------------------------------------------------------------*/
+
+
+
 @media  only screen and (max-width:1200px) {
+    #header-main {
+        height: 450px;
+        width: 100%;
+        background-image: url("./Resources/images/ea-760px.jpg") !important;
+        background-repeat: none !important;
+        background-size: cover; 
+    }
+    
     .mobileMenu {
         display: inline !important;
+        border: none !important;
+        margin-left: -20px !important;
     }
 
     .button-menu, .navbar-toggler {
@@ -239,9 +367,90 @@ text-decoration: none;
     } 
 
     .navbar-brand {
-        display: none;
+        justify-content: start !important;
+    }
+
+    .btn.mobileMenu {
+        padding: 0;
+        margin: 0;
+    }
+
+    .btn-mobile {
+        width: 60px !important;
+        top: 10px;
+    }
+    
+    .navbar-mobile {
+        justify-content: start !important;
+    }
+
+   
+}
+
+
+@media only screen and (max-width: 1400px) {
+    #header-main {
+        height: 450px;
+        width: 100%;
+        background-image: url("./Resources/images/ea-760px.jpg") !important;
+        background-repeat: none !important;
+        background-size: cover; 
+    }
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+    
+    .bf-2042-image-bg {
+        display: flex;
+        flex-direction: column;
+        width: 100vw; 
+        height: 160px; 
+        background-image: url(./Resources/images/bf-2042-season3-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .title-h2-bf-2042 {
+        font-size: 24px;
+        font-family: 'ElectronicArtsTextBold';
+        max-width: 800px;
+        margin-bottom: 0;
+        padding-top: 20px;
+    }
+
+    .bf-2042-buttons {
+        margin-bottom: 20px;
     }
 }
+
+@media only screen and (max-width: 820px) {
+    
+    .bf-2042-image-bg {
+        display: flex;
+        flex-direction: column;
+        width: 100vw; 
+        height: 190px; 
+        background-image: url(./Resources/images/bf-2042-season3-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .title-h2-bf-2042 {
+        font-size: 24px;
+        font-family: 'ElectronicArtsTextBold';
+        text-align: center;
+        max-width: 600px;
+        margin-bottom: 0;
+        padding-top: 10px;
+    }
+
+    .bf-2042-buttons {
+        margin-bottom: 10px;
+    }
+}
+
 
 @media only screen and (max-width: 960px) {
     #header-main {
@@ -251,6 +460,7 @@ text-decoration: none;
         background-repeat: none !important;
         background-size: cover; 
     }
+
 }
 
 @media only screen and (max-width: 760px) {
@@ -279,5 +489,13 @@ text-decoration: none;
         padding-bottom: 50px;
     }
 
+    .logo-nav-mobile {
+        width: 50px !important;
+    }
+
+    .brand-logo {
+        width: 100px !important;
+        margin-top: 6px !important;
+    }
 
 }
