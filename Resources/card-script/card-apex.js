@@ -4,7 +4,7 @@ const cardContentApex = [
     {
         id: 0,
         linkToPage: "#",
-        cardImg: "/card_components/f23-worldcup-featureimg-16x9.jpg.adapt.crop16x9.431p.jpg",
+        cardImg: "/Electronic-Arts/card_components/f23-worldcup-featureimg-16x9.jpg.adapt.crop16x9.431p.jpg",
         redTitle: "FIFA",
         date:"8-nov-2022",
         title: "Pronostico EA SPORTS FIFA World Cup 2022",

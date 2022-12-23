@@ -14,7 +14,7 @@ const cardContentNews = [
     {
       id: 0,
       linkToPage: "#",
-      cardImg: "/card_components/itt-hero-large-keyart-16x9-xl.jpg.adapt.crop16x9.431p.jpg",
+      cardImg: "/Electronic-Arts/card_components/itt-hero-large-keyart-16x9-xl.jpg.adapt.crop16x9.431p.jpg",
       redTitle: "It Takes Two",
       date: "4 Nov 2022",
       title: "It Takes Two è ora disponibile su Nintendo Switch<sup>TM</sup>",
@@ -23,7 +23,7 @@ const cardContentNews = [
     {
         id: 1,
         linkToPage: "#",
-        cardImg: "/card_components/marvel-x-ea-featured-image-16x9.jpg.adapt.crop16x9.431p.jpg",
+        cardImg: "/Electronic-Arts/card_components/marvel-x-ea-featured-image-16x9.jpg.adapt.crop16x9.431p.jpg",
         redTitle: "Electronic Arts Inc.",
         date: "31 Ott 2022",
         title: "EA e MARVEL ENTERTAINMENT annunciano una collaborazione su più titoli",
@@ -32,7 +32,7 @@ const cardContentNews = [
       {
         id: 2,
         linkToPage: "#",
-        cardImg: "/card_components/ts4-play-sims-for-free-new-plumbob.png.adapt.crop16x9.431p.png",
+        cardImg: "/Electronic-Arts/card_components/ts4-play-sims-for-free-new-plumbob.png.adapt.crop16x9.431p.png",
         redTitle: "Electronic Arts Inc.",
         date: "18 Ott 2022",
         title: "Giocate a The Sims 4 gratis a partire dal 18 ottobre",
@@ -41,7 +41,7 @@ const cardContentNews = [
       {
         id: 3,
         linkToPage: "#",
-        cardImg: "/card_components/eacom-brand-featured-image-16x9.png.adapt.crop16x9.431p.png",
+        cardImg: "/Electronic-Arts/card_components/eacom-brand-featured-image-16x9.png.adapt.crop16x9.431p.png",
         redTitle: "Electronic Arts Inc.",
         date: "6 Ott 2022",
         title: "Un aggiornamento per i nostri giocatori Mac sull'EA app per Windows",
@@ -50,7 +50,7 @@ const cardContentNews = [
       {
         id: 4,
         linkToPage: "#",
-        cardImg: "/card_components/ts4-play-sims-for-free-new-plumbob.png.adapt.crop16x9.431p.png",
+        cardImg: "/Electronic-Arts/card_components/ts4-play-sims-for-free-new-plumbob.png.adapt.crop16x9.431p.png",
         redTitle: "Electronic Arts Inc.",
         date: "18 Ott 2022",
         title: "Tutto ciò che è stato annunciato durante l'evento 'Behind The Sims Summit",
@@ -59,7 +59,7 @@ const cardContentNews = [
       {
         id: 5,
         linkToPage: "#",
-        cardImg: "/card_components/ea-app-featured-image-16x9.jpg.adapt.crop16x9.431p.jpg",
+        cardImg: "/Electronic-Arts/card_components/ea-app-featured-image-16x9.jpg.adapt.crop16x9.431p.jpg",
         redTitle: "Electronic Arts Inc.",
         date: "18 Ott 2022",
         title: "Giocate a The Sims 4 gratis a partire dal 18 ottobre",
