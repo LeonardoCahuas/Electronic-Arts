@@ -13,6 +13,28 @@
     url("//db.onlinewebfonts.com/t/48656eabd3fef6464367d956315c749a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/48656eabd3fef6464367d956315c749a.svg#Electronic Arts Text") format("svg"); 
 }
 
+
+@font-face {
+    font-family: 'ElectronicArtsText';
+    src: url('./Resources/ElectronicArtsFont/ElectronicArtsText/@font-face/48656eabd3fef6464367d956315c749a.eot'); /* IE9 Compat Modes */
+    src: url('./Resources/ElectronicArtsFont/ElectronicArtsText/@font-face/48656eabd3fef6464367d956315c749a.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./Resources/ElectronicArtsFont/ElectronicArtsText/@font-face/48656eabd3fef6464367d956315c749a.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./Resources/ElectronicArtsFont/ElectronicArtsText/@font-face/48656eabd3fef6464367d956315c749a.woff') format('woff'), /* Pretty Modern Browsers */
+         url('./Resources/ElectronicArtsFont/ElectronicArtsText/@font-face/48656eabd3fef6464367d956315c749a.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('./Resources/ElectronicArtsFont/ElectronicArtsText/@font-face/48656eabd3fef6464367d956315c749a.svg') format('svg'); /* Legacy iOS */
+  }
+
+  @font-face {
+    font-family: 'ElectronicArtsTextBold';
+    src: url('./Resources/ElectronicArtsFont/ElectronicArtsTextBold/@font-face/cb2c6807809e3f956c87a1773338186e.eot'); /* IE9 Compat Modes */
+    src: url('./Resources/ElectronicArtsFont/ElectronicArtsTextBold/@font-face/cb2c6807809e3f956c87a1773338186e.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./Resources/ElectronicArtsFont/ElectronicArtsTextBold/@font-face/cb2c6807809e3f956c87a1773338186e.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./Resources/ElectronicArtsFont/ElectronicArtsTextBold/@font-face/cb2c6807809e3f956c87a1773338186e.woff') format('woff'), /* Pretty Modern Browsers */
+         url('./Resources/ElectronicArtsFont/ElectronicArtsTextBold/@font-face/cb2c6807809e3f956c87a1773338186e.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('./Resources/ElectronicArtsFont/ElectronicArtsTextBold/@font-face/cb2c6807809e3f956c87a1773338186e.svg') format('svg'); /* Legacy iOS */
+  }
+
+
 :root{
     --black: #161616;
     --red-hover: #ff4d4c;
@@ -23,7 +45,7 @@
 }
 
 body{
-    font-family: "Electronic Arts Text",  "Verdana", "Helvetica", "Arial", sans-serif; 
+    font-family: "ElectronicArtsText",  "Verdana", "Helvetica", "Arial";
 }
 
 /*
