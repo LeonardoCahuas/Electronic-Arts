@@ -4,7 +4,7 @@ const cardContent6 = [
     {
         id: 0,
         linkToPage: "#",
-        cardImg: "/card_components/f23-worldcup-featureimg-16x9.jpg.adapt.crop16x9.431p.jpg",
+        cardImg: "/Electronic-Arts/card_components/f23-worldcup-featureimg-16x9.jpg.adapt.crop16x9.431p.jpg",
         redTitle: "FIFA",
         date:"8-nov-2022",
         title: "Pronostico EA SPORTS FIFA World Cup 2022",
@@ -13,7 +13,7 @@ const cardContent6 = [
     {
         id: 1,
         linkToPage: "#",
-        cardImg: "/card_components/f23-worldcup-featureimg-16x9.jpg.adapt.crop16x9.431p.jpg",
+        cardImg: "/Electronic-Arts/card_components/f23-worldcup-featureimg-16x9.jpg.adapt.crop16x9.431p.jpg",
         redTitle: "FIFA",
         date:"8-nov-2022",
         title: "Pronostico EA SPORTS FIFA World Cup 2022",
@@ -22,7 +22,7 @@ const cardContent6 = [
     {
         id: 2,
         linkToPage: "#",
-        cardImg: "/card_components/f23-featured-image-ea-play-trial.jpg.adapt.crop16x9.431p.jpg",
+        cardImg: "/Electronic-Arts/card_components/f23-featured-image-ea-play-trial.jpg.adapt.crop16x9.431p.jpg",
         redTitle: "FIFA",
         date:"8-nov-2022",
         title: "Pronostico EA SPORTS FIFA World Cup 2022",
@@ -31,7 +31,7 @@ const cardContent6 = [
     {
         id: 3,
         linkToPage: "#",
-        cardImg: "/card_components/wc-predictor-trophy-image-16x9-carousel-1-1.png.adapt.crop16x9.431p.png",
+        cardImg: "/Electronic-Arts/card_components/wc-predictor-trophy-image-16x9-carousel-1-1.png.adapt.crop16x9.431p.png",
         redTitle: "FIFA",
         date:"8-nov-2022",
         title: "Pronostico EA SPORTS FIFA World Cup 2022",
@@ -40,7 +40,7 @@ const cardContent6 = [
     {
         id: 4,
         linkToPage: "#",
-        cardImg: "/card_components/pitch-notes-tile-update.png.adapt.crop16x9.431p.png",
+        cardImg: "/Electronic-Arts/card_components/pitch-notes-tile-update.png.adapt.crop16x9.431p.png",
         redTitle: "FIFA",
         date:"8-nov-2022",
         title: "Pronostico EA SPORTS FIFA World Cup 2022",
@@ -49,7 +49,7 @@ const cardContent6 = [
     {
         id: 5,
         linkToPage: "#",
-        cardImg: "/card_components/main.jpg.adapt.crop16x9.431p.jpg",
+        cardImg: "/Electronic-Arts/card_components/main.jpg.adapt.crop16x9.431p.jpg",
         redTitle: "FIFA",
         date:"8-nov-2022",
         title: "Pronostico EA SPORTS FIFA World Cup 2022",
